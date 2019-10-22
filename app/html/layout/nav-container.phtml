@@ -1,0 +1,12 @@
+<?php
+$nav1Class = ($this->nav->secondary) ? 'nav-toggle-half' : 'nav-toggle-full';
+$nav2Title = ($this->request->action === 'index') ? 'info' : $this->request->action;
+?>
+
+<nav>
+    <div id="nav1-toggle" class="mobile <?= $nav1Class; ?>"><?= t($this->request->module); ?></div
+    ><?php if($nav1Class === 'nav-toggle-half'){ ?><div id="nav2-toggle" class="mobile nav-toggle-half"><?= t($nav2Title); ?></div><?php } ?>
+
+    <ul id="nav1" class="desktop"><?= $this->includeContent('layout/nav-bar.phtml', ['nav' => $this->nav->primary, 'request' => $this->request]); ?></ul>
+    <ul id="nav2" class="desktop"><?= $this->includeContent('layout/nav-bar.phtml', ['nav' => $this->nav->secondary, 'request' => $this->request]); ?></ul>
+</nav>

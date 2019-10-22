@@ -1,0 +1,7 @@
+<?php
+$type = isset($this->type) ? $this->type : 'main';
+$source = isset($this->image->files->$type) ? $this->image->files->$type : $this->image->file;
+$class = isset($this->class) ? 'class="' . $this->class . '"' : '';
+$alt = $this->image->alt;
+?>
+<img src="<?= $source; ?>" alt="<?= $alt; ?>" <?= $class; ?>/>

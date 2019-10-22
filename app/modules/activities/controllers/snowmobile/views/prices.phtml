@@ -1,0 +1,59 @@
+<section>
+	<h1><?= t('Prices'); ?></h1>
+	<p><?= t('snowmobilePackagesDesc'); ?></p>
+	<p><?= t('optionalGuide'); ?></p>
+	
+	<div class="block-list">
+		<div class="block-list-item c50">
+			<h2><?= t('package1'); ?></h2>
+			<div class="font-large"><?= $products->getItemPrice('1h'); ?></div>
+			<ul class="list-unstyled">
+				<li><?= t('helmet'); ?></li>
+				<li><?= t('gas'); ?></li>
+				<li><?= t('accessPass'); ?></li>
+			</ul>
+		</div>
+		<div class="block-list-item c50">
+			<h2><?= t('package2'); ?></h2>
+			<div class="font-large"><?= $products->getItemPrice('2h'); ?></div>
+			<ul class="list-unstyled">
+				<li><?= t('helmet'); ?></li>
+				<li><?= t('gas'); ?></li>
+				<li><?= t('accessPass'); ?></li>
+				<li><?= t('clothes'); ?></li>
+			</ul>
+		</div>
+		<div class="block-list-item c50">
+			<h2><?= t('package2Night'); ?></h2>
+			<div class="font-large"><?= $products->getItemPrice('2hNight'); ?></div>
+			<ul class="list-unstyled">
+				<li><?= t('minimum2Snowmobiles'); ?></li>
+				<li><?= t('helmet'); ?></li>
+				<li><?= t('gas'); ?></li>
+				<li><?= t('accessPass'); ?></li>
+				<li><?= t('clothes'); ?></li>
+			</ul>
+		</div>
+		<div class="block-list-item c50">
+			<h2><?= t('package4'); ?></h2>
+			<div class="font-large"><?= $products->getItemPrice('4h'); ?></div>
+			<ul class="list-unstyled">
+				<li><?= t('helmet'); ?></li>
+				<li><?= t('gas'); ?></li>
+				<li><?= t('accessPass'); ?></li>
+				<li><?= t('clothes'); ?></li>
+			</ul>
+		</div>
+		<div class="block-list-item c50">
+			<h2><?= t('packageDay'); ?></h2>
+			<div class="font-large"><?= $products->getItemPrice('fullDay'); ?></div>
+			<ul class="list-unstyled">
+				<li><?= t('minimum2Snowmobiles'); ?></li>
+				<li><?= t('helmet'); ?></li>
+				<li><?= t('accessPass'); ?></li>
+				<li><?= t('clothes'); ?></li>
+				<li><?= t('gasNotIncluded'); ?></li>
+			</ul>
+		</div>
+	</div>
+</section>

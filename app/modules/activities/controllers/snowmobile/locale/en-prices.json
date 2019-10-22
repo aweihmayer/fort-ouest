@@ -1,0 +1,16 @@
+{
+	"snowmobilePackagesDesc": "All packages include one snowmobile which can fit 2 people with all the necessary equipment.",
+	"optionalGuide": "Guides are optional. Ask for availability.",
+	"minimum2Snowmobiles": "Minimum of 2 snowmobiles",
+	"helmet": "Helmet",
+	"gas": "Gas",
+	"accessPass": "Access pass",
+	"clothes": "Clothes",
+	"gasNotIncluded": "GAS NOT INCLUDED",
+	
+	"package1": "1h ride",
+	"package2": "2h ride",
+	"package2Night": "2h evening ride",
+	"package4": "4h ride",
+	"packageDay": "Full day ride"
+}

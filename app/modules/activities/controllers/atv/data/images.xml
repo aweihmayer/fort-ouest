@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<images>
+	<group id="atv" path="/assets/images/atv">
+		<image id="atv1">
+			<file type="main">atv1.jpg</file>
+			<file type="thumbnail">atv1_thumb.jpg</file>
+			<alt locale="en">All-terrain vehicle in Mont-Tremblant, Quebec</alt>
+			<alt locale="fr">Véhicules tout-terrain à Mont-Tremblant, Québec</alt>
+		</image>
+		<image id="atv2">
+			<file type="main">atv2.jpg</file>
+			<file type="thumbnail">atv2_thumb.jpg</file>
+			<alt locale="en">Snowmobile in Mont-Tremblant, Quebec</alt>
+			<alt locale="fr">Motoneige à Mont-Tremblant, Québec</alt>
+		</image>
+		<image id="atv3">
+			<file type="main">atv3.jpg</file>
+			<file type="thumbnail">atv3_thumb.jpg</file>
+			<alt locale="en">Dirt road</alt>
+			<alt locale="fr">Chemin de terre</alt>
+		</image>
+		<image id="atv4">
+			<file type="main">atv4.jpg</file>
+			<file type="thumbnail">atv4_thumb.jpg</file>
+			<alt locale="en">Parked vehicules</alt>
+			<alt locale="fr">Véhicules stationnés</alt>
+		</image>
+		<image id="atv5">
+			<file type="main">atv5.jpg</file>
+			<file type="thumbnail">atv5_thumb.jpg</file>
+			<alt locale="en">Driving through mud</alt>
+			<alt locale="fr">Conduire dans la boue</alt>
+		</image>
+		<image id="atv6">
+			<file type="main">atv6.jpg</file>
+			<file type="thumbnail">atv6_thumb.jpg</file>
+			<alt locale="en">Getting the vehicule dirty</alt>
+			<alt locale="fr">Salir le véhicule sale</alt>
+		</image>
+		<image id="atv7">
+			<file type="main">atv7.jpg</file>
+			<file type="thumbnail">atv7_thumb.jpg</file>
+			<alt locale="en">Driving in water</alt>
+			<alt locale="fr">Conduire dans l'eau</alt>
+		</image>
+	</group>
+</images>

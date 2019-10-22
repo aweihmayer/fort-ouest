@@ -1,0 +1,67 @@
+{
+  "astpbBookTxt1":  "Call us at 819-687-9721 now! Let us know your details and those of your group so we can tailor the perfect experience for you.",
+  "astpbBookStep1": [
+    "Your full name",
+    "The date of your event",
+    "Your time of arrival (10h, 14h or other)",
+    "Your phone number",
+    "Your email",
+    "The approximate number of players"
+  ],
+
+  "astpbBookOnline": "<a href=\"http://www.vantora.com/Paintball/pfo/\">Book online here</a>. Or if you prefer...",
+  "astpbBookStep2": "Pay for your reservation",
+  "astpbDepositMethods": "2 booking methods",
+  "astpbDeposit1": "If you book with a deposit of 20 $ per person, we offer no freebies.",
+  "astpbDeposit2": "If you book for your event by pre-paying your entire group at least 3 weeks before your date, depending on the number of participants, we add freebies. Contact us for more details.",
+  "astpbBookWaiver": "Once you receive an email confirmation, we invite you to fill out our player waiver in advance. By doing so, you will save about 10 to 30 minutes  of game time during your event.",
+  "astpbMoveDate": "You can move the date of the event for a 10% fee.",
+  "astpbAddPlayers": "You may add players at any time by contacting us in advance.",
+
+  "astpbCancellationPolicy": [
+    "More than 30 days before the event, 100% of your deposit can be refunded.",
+    "15 to 29 days before the event, 80% of your deposit can be refunded.",
+    "Less than 7 days before the event, your deposit cannot be refunded, but your deposit stays in the bank for 1 year. You have, 1 year after your cancellation to use your deposit for another event"
+  ],
+
+  "memberShipSlogan": "Save by becoming a member!",
+  "membershipDjs": "DJS",
+  "membershipYear": "Yearly",
+  "membershipLife": "Lifetime",
+  "membershipsInclude": "Every membership includes",
+  "membershipAdvantageEntry": "price entry all year round",
+  "membershipAdvantageEquipment": "Discounts on purchasing equipment",
+
+  "membershipDjsDescription": [
+    "This card only works on Sunday & Thursday from 18h until closing",
+    "After 4 years of DJS membership, you become a lifetime member"
+  ],
+  "membershipYearDescription": ["After 2 years of yearly memberships, you become a lifetime member"],
+
+  "entryHeading": "Entry",
+  "entries": "Entries",
+  "summer": "Summer",
+  "winter": "Winter",
+  "dayFull": "Full day",
+  "dayHalf": "Half day (2h)",
+
+  "grenadePaint": "Paint grenade",
+  "grenadeSmoke": "Smoke grenade",
+  "smallSmokeGrenade": "Small smoke grenade",
+  "marker": "Marker",
+  "mask": "Mask",
+  "maskThermal": "Thermal lense mask",
+  "suit": "Camo suit",
+  "gloves": "Protective gloves",
+  "shemagh": "Neck protector",
+  "precisionBarrel": "Precision barrel",
+  "markerA5": "Hero marker",
+  "markerSpeedball": "Competition marker",
+  "pod": "Pod",
+  "beltSmall": "Small pod belt",
+  "beltLarge": "Pod belt",
+  "vest": "Tactical vest",
+  "gasTank": "Nitro tank",
+  "bodyArmor": "Body armor (for men)",
+  "bodyArmorWomen": "Body armor (for women)"
+}

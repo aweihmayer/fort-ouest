@@ -1,0 +1,59 @@
+.icon, .icon-small, #fb-events-icon,
+.sprite-rank{
+	background-repeat: no-repeat;
+	background-size: auto;
+}
+/**********************************************************************************************
+									Icons
+**********************************************************************************************/
+.icon, .icon-small,
+.icon-custom, .icon-custom-small{
+	font-size: 36px;
+	font-weight: bold;
+	display: inline-block;
+	text-align: center;
+	border-radius: 50%;
+}
+.icon, .icon-custom{
+	line-height: 75px;
+	width: 75px;
+	height: 75px;
+}
+.icon-small, .icon-custom-small{
+	line-height: 50px;
+	width: 50px;
+	height: 50px;
+}
+.icon, .icon-small, #fb-events-icon{
+	background-image: url('/assets/images/sprites/icons.png?v=2');
+}
+.icon-fb{		background-position: -839px 5px; 	}
+#fb-events-icon{background-position: -840px 14px; 	}
+.icon-fb-small{	background-position: -912px 0px; 	}
+.icon-insta{	background-position: -954px 5px; 	}
+.icon-insta-small{background-position: -1028px -7px;}
+.icon-marker{	background-position: -52px 12px; 	}
+.icon-mask{		background-position: 13px 14px; 	}
+.icon-suit{		background-position: -115px 15px; 	}
+.icon-hand{		background-position: -180px 12px; 	}
+.icon-shemagh{	background-position: -253px 12px; 	}
+.icon-balls{	background-position: -322px 12px; 	}
+.icon-ticket{	background-position: -391px 14px; 	}
+.icon-plus{		background-position: -456px 12px; 	}
+.icon-mail{		background-position: -532px 9px; 	}
+.icon-location{	background-position: -673px 10px; 	}
+.icon-phone{	background-position: -606px 10px; 	}
+.icon-camera{	background-position: -753px 8px; 	}
+/**********************************************************************************************
+									Ranks
+**********************************************************************************************/
+.sprite-rank{
+	margin: auto;
+	width: 100px;
+	height: 160px;
+	background-image: url('/assets/images/sprites/ranks.png');
+}
+.sprite-rank-1{	background-position: 0px -5px; 	}
+.sprite-rank-2{	background-position: -101px -8px; 	}
+.sprite-rank-3{	background-position: -203px -7px; 	}
+.sprite-rank-4{	background-position: -306px -5px; 	}

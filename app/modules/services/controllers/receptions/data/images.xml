@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<images>
+	<group id="receptions" path="/assets/images/receptions">
+		<image id="chalet">
+			<file>chalet.jpg</file>
+			<alt locale="en">Chalet Fort Ouest</alt>
+			<alt locale="fr">Chalet Fort Ouest</alt>
+		</image>
+		<image id="fireplace">
+			<file>fireplace.jpg</file>
+			<alt locale="en">Fireplace</alt>
+			<alt locale="fr">Feu de foyer</alt>
+		</image>
+		<image id="indoors">
+			<file>indoors.jpg</file>
+			<alt locale="en">Inside the chalet</alt>
+			<alt locale="fr">À l'intérieur du chalet</alt>
+		</image>
+		<image id="steak">
+			<file>steak.jpg</file>
+			<alt locale="en">Steak dish</alt>
+			<alt locale="fr">Plat steak</alt>
+		</image>
+	</group>
+</images>

@@ -1,0 +1,30 @@
+{
+	"fireRun": "The fire run",
+	"fireRunDesc1": "In groups, you will have to start a fire, move it and boil some water to make a tea! Will you be the winning team in this race?",
+	"fireRunDesc2": "Lasting 3 hours, this package includes a guide, a pair of rackets and sticks, a GPS and all the necessary material to make a fire.",
+	"fireRunLocation": "The first site for beginners is located 500 feet from the chalet. The second site, for intermidiates is located at the peak of the mountain in front of the chalet.",
+	"fireRunSchedule": [
+		"30 minutes - GPS training inside",
+		"30 minutes - Hike to the site",
+		"1 heure 30 minutes - The fire run",
+		"30 minutes - Hike back and hot chocolates"
+	],
+	"fireRunPrice1": "<strong>4 to 7 people</strong>: price plus tax per participant",
+	"fireRunPrice2": "<strong>8 or more people</strong>: price plus tax per participant",	
+	
+	"forestSurvival": "24h forest survival",
+	"forestSurvivalDesc1": "Come live a challenge that will put your leadership to the test! Will you be able to survive for 24 hours with the bare minimum?",
+	"forestSurvivalDesc2": "14 years and older only. Lasting 24 hours, this package includes a guide, all the material necessary to make a shelter and a fire, cauldrons, a GPS, night snack and a return diner.",
+	"forestSurvivalSchedule": [
+		"9h30 - Welcome, basic forest survival training, distribution of the material",
+		"11h - Hike to the mountain to spend the night",
+		"Training is done continually throughout the activity",
+		"10h the next day - Hike back, a tasty soup and hot chocolate is waiting for you!"
+	],
+	"forestSurvivalPrice1": "<strong>4 to 12 people</strong>: price plus tax ",
+	"forestSurvivalPrice2": "<strong>12 or more people</strong>: price plus tax",
+	"forestSurvivalPrice3": "Possibility to extend the activity over 2 nights for price per participant.",
+	"forestSurvivalWhatToBring1": "At all times, participants must bring a good backpack of about 50 L and clothes appropriate for the weather.",
+	"forestSurvivalWhatToBring2": "For Fall, participants must bring a sleeping bag of minimum -70 celcius.",
+	"forestSurvivalWhatToBring3": "For Winter, we include sleeping bags of -30 celcius, rackets and sticks."
+}

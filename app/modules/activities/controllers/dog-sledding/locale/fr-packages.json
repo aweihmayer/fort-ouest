@@ -1,0 +1,25 @@
+{
+	"dogSleddingTrek": "Randonnée de 2h30",
+	"dogSleddingDesc": "Randonnée d'initiation en traineaux à chiens. Activité d'environ 2h30 incluant 1 heure (10 km) de conduite du traineau avec 1 conducteur et 1 passager. Changement de conducteur à mi-parcours.",
+	"dogSleddingDepartures": "2 départs par jour: 9h et 13h.",
+	"dogSleddingSchedule": [
+		"La visite du chenil",
+		"L'initiation à la conduite du traineau",
+		"La rencontre de votre équipe de chiens",
+		"La participation à l'attelage des chiens",
+		"Randonnée en sentier d'une heure en forêt",
+		"Arrêt à mi-parcours avec gâteries et breuvage chaud",
+		"Retour au chenil, câlins aux chiens avec remise de biscuits de récompense",
+		"Une soupe chaude est servie pendant que vous visualisiez vos photos au restaurant du Fort Ouest (avec permis d'alcool)"
+	],
+	
+	"dogSleddingPriceDesc": "Par personne (taxes non-incluses)",
+	"dogSleddingPriceAdults": "<strong>Adultes</strong> (18+): price",
+	"dogSleddingPriceTeens": "<strong>Adolescents</strong> (13-17): price",
+	"dogSleddingPriceChildren": "<strong>Enfants</strong> (6-12): price",
+	"dogSleddingPriceBabies": "<strong>Tout-petits</strong> (3-5): price",
+	
+	"dogSleddingSpecialsCertificates": "Certificats cadeaux disponibles par email ou par la poste.",
+	"dogSleddingSpecialsAdultGroup": "Groupe 10 adultes et + : $10 de rabais par personne (price).",
+	"dogSleddingSpecialsCorpo": "Rabais pour groupe d'école et corporatif sur appel."
+}

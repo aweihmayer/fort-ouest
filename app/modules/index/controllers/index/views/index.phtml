@@ -1,0 +1,11 @@
+<section>
+	<h1><?= t('outdoorsHeading'); ?></h1>
+	<p><?= t('fortOuestMarketing'); ?></p>
+	<a href="<?= $this->contact->socialMedia->facebook; ?>" id="fb-events" target="_blank" rel="nofollow">
+        <div id="fb-events-icon">&nbsp;</div>
+        <div id="fb-events-description">
+            <?= t('eventsMarketing'); ?>
+        </div>
+	</a>
+	<?= $this->includeContent('content/activities.phtml', ['images' => $this->images->showcase]); ?>
+</section>

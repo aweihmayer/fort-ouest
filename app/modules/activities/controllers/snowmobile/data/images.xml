@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<images path="/assets/images/snowmobile">
+	<group id="gallery">
+		<image id="snowmobile1">
+			<file type="main">snowmobile1.jpg</file>
+			<file type="thumbnail">snowmobile1_thumb.jpg</file>
+			<alt locale="en">Speeding through an open field on a snowmobile</alt>
+			<alt locale="fr">Conduire rapidemment à travers un champ ouvert sur une motoneige</alt>
+		</image>
+		<image id="snowmobile2">
+			<file type="main">snowmobile2.jpg</file>
+			<file type="thumbnail">snowmobile2_thumb.jpg</file>
+			<alt locale="en">Solo snowmobiling</alt>
+			<alt locale="fr">Motoneige en solo</alt>
+		</image>
+		<image id="snowmobile3">
+			<file type="main">snowmobile3.jpg</file>
+			<file type="thumbnail">snowmobile3_thumb.jpg</file>
+			<alt locale="en">Snowmobiling with a passenger</alt>
+			<alt locale="fr">Motoneige avec un passager</alt>
+		</image>
+		<image id="snowmobile4">
+			<file type="main">snowmobile4.jpg</file>
+			<file type="thumbnail">snowmobile4_thumb.jpg</file>
+			<alt locale="en">Snowmobiling on trails</alt>
+			<alt locale="fr">Motoneige sur les sentiers</alt>
+		</image><image id="snowmobile5">
+			<file type="main">snowmobile5.jpg</file>
+		<file type="thumbnail">snowmobile5_thumb.jpg</file>
+			<alt locale="en">Snowmobiling in group</alt>
+			<alt locale="fr">Motoneige en groupe</alt>
+		</image>
+	</group>
+
+	<group id="banners">
+		<image id="snowmobile">
+			<file type="main">snowmobile.jpg</file>
+			<alt locale="en">Snowmobile in Mont-Tremblant, Quebec</alt>
+			<alt locale="fr">Motoneige à Mont-Tremblant, Québec</alt>
+		</image>
+	</group>
+</images>

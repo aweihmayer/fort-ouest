@@ -1,0 +1,20 @@
+<section>
+	<h1><?= t('bookYourActivity'); ?></h1>
+		
+	<h2><?= t('contactUs'); ?></h2>
+	<p><?= t('astpbBookTxt1'); ?></p>
+	<?= $this->includeContent('helper/ul.phtml', ['items' => t('astpbBookStep1')]); ?>
+
+	<h2><?= t('astpbBookStep2'); ?></h2>
+	<p><?= t('astpbDepositMethods'); ?></p>
+	<ul>
+		<li><?= t('astpbDeposit1'); ?></li>
+		<li><?= t('astpbDeposit2'); ?></li>
+	</ul>
+	<p><?= t('astpbBookWaiver'); ?></p>
+	<p><?= t('astpbMoveDate'); ?></p>
+	<p><?= t('astpbAddPlayers'); ?></p>
+
+	<h2><?= t('cancellationPolicy'); ?></h2>
+	<?= $this->includeContent('helper/p.phtml', ['texts' => t('astpbCancellationPolicy')]); ?>
+</section>

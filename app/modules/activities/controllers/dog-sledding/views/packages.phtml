@@ -1,0 +1,22 @@
+<section>
+	<h1><?= t('dogSleddingTrek'); ?></h1>
+	<?= $this->includeContent('content/banner.phtml', ['image' => $this->images->dogSledding2]); ?>
+	
+	<p><?= t('dogSleddingDesc'); ?></p>
+	
+	<h2><?= t('schedule'); ?></h2>
+	<p><?= t('dogSleddingDepartures'); ?></p>
+	<?= $this->includeContent('helper/ul.phtml', ['items' => t('dogSleddingSchedule')]); ?>
+	
+	<h2><?= t('prices'); ?></h2>
+	<p><?= t('dogSleddingPriceDesc'); ?></p>
+	<p><?= t('dogSleddingPriceAdults', ['price' => $this->products->getItemPrice('adult', true)]); ?></p>
+	<p><?= t('dogSleddingPriceTeens', ['price' => $this->products->getItemPrice('teen', true)]); ?></p>
+	<p><?= t('dogSleddingPriceChildren', ['price' => $this->products->getItemPrice('child', true)]); ?></p>
+	<p><?= t('dogSleddingPriceBabies', ['price' => $this->products->getItemPrice('baby', true)]); ?></p>
+	
+	<h2><?= t('specials'); ?></h2>
+	<p><?= t('dogSleddingSpecialsCertificates'); ?></p>
+	<p><?= t('dogSleddingSpecialsAdultGroup', ['price' => $this->products->getItemPrice('adultGroup', true)]); ?></p>
+	<p><?= t('dogSleddingSpecialsCorpo'); ?></p>
+</section>

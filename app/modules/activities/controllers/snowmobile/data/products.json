@@ -1,0 +1,22 @@
+{
+	"1h":{
+		"price":99,
+		"type":"rental"
+	},
+	"2h":{
+		"price":160,
+		"type":"rental"
+	},
+	"2hNight":{
+		"price":199,
+		"type":"rental"
+	},
+	"4h":{
+		"price":190,
+		"type":"rental"
+	},
+	"fullDay":{
+		"price":250,
+		"type":"rental"
+	}
+}

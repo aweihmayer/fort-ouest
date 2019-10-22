@@ -1,0 +1,11 @@
+{
+	"index": {
+		"index": ["index", "activities", "restaurant", "receptions", "partners", "contact"],
+		"paintball": ["index", "prices", "members", "photos", "book"],
+		"airsoft": ["index", "prices", "members", "photos", "book"],
+		"dogSledding": ["index", "packages", "photos", "book"],
+		"atv": ["index", "photos", "book"],
+		"snowmobile": ["index", "prices", "photos", "book"],
+		"survival": ["index", "packages", "photos", "book"]
+	}
+}

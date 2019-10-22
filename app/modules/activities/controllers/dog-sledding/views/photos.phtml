@@ -1,0 +1,6 @@
+<section>
+	<h1><?= t('gallery'); ?></h1>
+	<p><?= t('photosDesc'); ?></p>
+	<p><?= t('photosPrice', ['price' => $this->products->getItemPrice('photos', true)]); ?></p>
+	<?= $this->includeContent('content/gallery.phtml', ['images' => $this->images]); ?>
+</section>

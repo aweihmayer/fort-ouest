@@ -1,0 +1,9 @@
+<table <?= (isset($this->class) === true) ? 'class="' . $this->class . '"' : ''; ?>>
+	<?php foreach($this->items as $row => $cols){ ?>
+		<tr>
+			<?php foreach($cols as $i => $v){ ?>
+				<td><?= $v; ?></td>
+			<?php } ?>
+		</tr>
+	<?php } ?>
+</table>

@@ -1,0 +1,128 @@
+body{
+	margin: 0px;
+	position: relative;
+}
+.display{
+	display: none !important;
+	visibility: hidden !important;
+}
+.clearfix:after{
+  content:"";
+  display:table;
+  clear: both;
+  height: 0;
+}
+/**********************************************************************************************
+									Lightbox
+**********************************************************************************************/
+#lb-overlay{
+	position: fixed;
+	z-index: 9999;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100vh;
+	background-color: rgba(0,0,0, 0.8);
+}
+#lb-outter{
+	display: table;
+	table-layout: fixed;
+	height: 100%;
+	width: 100%;
+}
+#lb-inner{
+	vertical-align: middle;
+	display: table-cell;
+	text-align: center;
+}
+#lb-box{
+	display: inline-block;
+	text-align: initial;
+	max-width: 90%;
+	max-height: 95vh;
+	background-color: white;
+	padding: 10px 10px 10px 10px;
+	word-break:break-all;
+	overflow-x: initial;
+	overflow-y: auto;
+}
+#lb-image{
+	max-width: 100%;
+	max-height: 100%;
+	width: auto;
+	height: auto;
+}
+#lb-close{
+	width: 5vw;
+	text-align: right;
+	cursor: pointer;
+	font-family: Verdana, sans-serif;
+	font-weight: bold;
+	padding: 5px;
+	color: #747474;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+#lb-close:hover{
+	color: #FFFFFF;
+}
+/**********************************************************************************************
+									Positioning
+**********************************************************************************************/
+.lt, .lb, .rt, .rb{ position: absolute; }
+.lt, .lb{ left: 0px; }
+.lt{ top: 0px; }
+.lb{ bottom: 0px; }
+.rt, .rb{ right: 0px; }
+.rt{ top: 0px; }
+.rb{ bottom: 0px; }
+/**********************************************************************************************
+									Layout
+**********************************************************************************************/
+.c50{
+	width: 45%;
+}
+@media (min-width: 768px){
+	.c15-33{
+		width: 14%;
+	}
+	.c25-33{
+		width: 22%;
+	}
+	.c25-50{
+		width: 22%;
+	}
+	.c33-50{
+		width: 30%;
+	}
+	.c33-100{
+		width: 31%;
+	}
+	.c50-100{
+		width: 49%;
+	}
+}
+@media (max-width: 767px){
+	.c15-33{
+		width: 28.5%;
+	}
+	.c25-33{
+		width: 29%;
+	}
+	.c25-50{
+		width: 43%;
+	}
+	.c33-100{
+		width: 100%;
+	}
+	.c33-50{
+		width: 45%;
+	}
+	.c33-100{
+		width: 100%;
+	}
+	.c50-100{
+		width: 100%;
+	}
+}

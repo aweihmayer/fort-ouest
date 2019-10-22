@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+	<group module="index" controller="index">
+		<route id="home" action="index">
+			<path locale="en">/en</path>
+			<path locale="en" code="301">/index-en.html</path>
+			<path locale="fr">/fr</path>
+			<path locale="fr">/</path>
+		</route>
+		<route id="partners" action="partners">
+			<path locale="en">/en/partners</path>
+			<path locale="en" code="301">/e-tremblant-partners/index.html</path>
+			<path locale="fr">/fr/partenaires</path>
+			<path locale="fr" code="true">/e-tremblant-partenaires/index.html</path>
+		</route>
+		<route id="contact" action="contact">
+			<path locale="en">/en/contact</path>
+			<path locale="en" code="301">/e-tremblant-activites-en-contact/index.html</path>
+			<path locale="fr">/fr/contact</path>
+			<path locale="fr" code="301">/e-tremblant-activites-contact/index.html</path>
+		</route>
+	</group>
+
+	<!-- SERVICES -->
+
+	<group module="services">
+		<route id="restaurant" controller="restaurant" action="index">
+			<path locale="en">/en/restaurant</path>
+			<path locale="fr">/fr/restaurant</path>
+		</route>
+
+		<route id="receptionInfo" controller="receptions" action="index">
+			<path locale="en">/en/receptions</path>
+			<path locale="en" code="301">/g-tremblant-arundel-en-receptions/index.html</path>
+			<path locale="fr">/fr/receptions</path>
+			<path locale="fr" code="301">/g-tremblant-arundel-receptions/index.html</path>
+		</route>
+	</group>
+
+	<!-- ACTIVITIES -->
+
+	<group module="activities">
+		<route id="activities" module="activities" controller="index" action="index">
+			<path locale="en">/en/activities</path>
+			<path locale="en" code="301">/e-tremblant-activities/index.html</path>
+			<path locale="fr">/fr/activites</path>
+			<path locale="fr" code="301">/e-tremblant-activites/index.html</path>
+		</route>
+
+		<!-- PAINTBALL -->
+
+		<group controller="paintball">
+			<route id="paintballInfo" action="index">
+				<path locale="en">/en/paintball</path>
+				<path locale="en" code="301">/a-tremblant-paintball-en/index.html</path>
+				<path locale="fr">/fr/paintball</path>
+				<path locale="fr" code="301">/a-tremblant-paintball-event/index.html</path>
+				<path locale="fr" code="301">/a-tremblant-paintball-evenement/index.html</path>
+				<path locale="fr" code="301">/a-tremblant-paintball/index.html</path>
+			</route>
+			<route id="paintballPrices" action="prices">
+				<path locale="en">/en/paintball/prices</path>
+				<path locale="en" code="301">/a-tremblant-paintball-prices/index.html</path>
+				<path locale="fr">/fr/paintball/prix</path>
+				<path locale="fr" code="301">/a-tremblant-paintball-prix/index.html</path>
+			</route>
+			<route id="paintballMembers" action="members">
+				<path locale="en">/en/paintball/members</path>
+				<path locale="fr">/fr/paintball/membres</path>
+				<path locale="fr" code="301">/a-tremblant-paintball-membre/index.html</path>
+			</route>
+			<route id="paintballPhotos" action="photos">
+				<path locale="en">/en/paintball/photos</path>
+				<path locale="en" code="301">/a-tremblant-paintball-en-medias/index.html</path>
+				<path locale="fr">/fr/paintball/photos</path>
+				<path locale="fr" code="301">/a-tremblant-paintball-medias/index.html</path>
+			</route>
+			<route id="paintballBooking" action="booking">
+				<path locale="en">/en/paintball/book</path>
+				<path locale="en" code="301">/a-tremblant-paintball-en-contact/index.html</path>
+				<path locale="en" code="301">/a-tremblant-paintball-organize/index.html</path>
+				<path locale="fr">/fr/paintball/reserver</path>
+				<path locale="fr" code="301">/a-tremblant-paintball-organisez/index.html</path>
+				<path locale="fr" code="301">/a-tremblant-paintball-contact/index.html</path>
+			</route>
+		</group>
+
+		<!-- AIRSOFT -->
+
+		<group controller="airsoft">
+			<route id="airsoftInfo" action="index">
+				<path locale="en">/en/airsoft</path>
+				<path locale="en" code="301">//f-tremblant-airsoft-en/index.html</path>
+				<path locale="en" code="301">/f-tremblant-airsoft-en/index.html</path>
+				<path locale="en" code="301">/airsoft.html</path>
+				<path locale="en" code="301">/f-tremblant-airsoft-event/+</path>
+				<path locale="en" code="301">/f-tremblant-airsoft-event/index.html</path>
+				<path locale="fr">/fr/airsoft</path>
+				<path locale="fr" code="301">/f-tremblant-airsoft/</path>
+				<path locale="fr" code="301">/f-tremblant-airsoft-evenement/index.html</path>
+				<path locale="fr" code="301">/f-tremblant-airsoft/index.html</path>
+			</route>
+			<route id="airsoftPrices" action="prices">
+				<path locale="en">/en/airsoft/prices</path>
+				<path locale="en" code="301">/f-tremblant-airsoft-prices/index.html</path>
+				<path locale="fr">/fr/airsoft/prix</path>
+				<path locale="fr" code="301">/f-tremblant-airsoft-prix/</path>
+				<path locale="fr" code="301">/f-tremblant-airsoft-prix/index.html</path>
+			</route>
+			<route id="airsoftMembers" action="members">
+				<path locale="en">/en/airsoft/members</path>
+				<path locale="en" code="301">/f-tremblant-airsoft-member/index.html</path>
+				<path locale="fr">/fr/airsoft/membres</path>
+				<path locale="fr" code="301">/f-tremblant-airsoft-membre/</path>
+				<path locale="fr" code="301">/f-tremblant-airsoft-membre/index.html</path>
+			</route>
+			<route id="airsoftPhotos" action="photos">
+				<path locale="en">/en/airsoft/photos</path>
+				<path locale="en" code="301">/f-tremblant-airsoft-en-medias/index.html</path>
+				<path locale="fr">/fr/airsoft/photos</path>
+				<path locale="fr" code="301">/f-tremblant-airsoft-medias/index.html</path>
+			</route>
+			<route id="airsoftBooking" action="booking">
+				<path locale="en">/en/airsoft/book</path>
+				<path locale="en" code="301">/f-tremblant-airsoft-en-contact/index.html</path>
+				<path locale="en" code="301">/f-tremblant-airsoft-organize/index.html</path>
+				<path locale="fr">/fr/airsoft/reserver</path>
+				<path locale="fr" code="301">/f-tremblant-airsoft-organisez/index.html</path>
+				<path locale="fr" code="301">/f-tremblant-airsoft-contact/index.html</path>
+			</route>
+		</group>
+
+		<!-- DOG SLEDDING -->
+
+		<group controller="dog-sledding">
+			<route id="dogSleddingInfo" action="index">
+				<path locale="en">/en/dog-sledding</path>
+				<path locale="en" code="301">/c-tremblant-dog-sledding/index.html</path>
+				<path locale="fr">/fr/traineau-a-chiens</path>
+				<path locale="fr" code="301">/c-tremblant-traineau-a-chiens/index.html</path>
+			</route>
+			<route id="dogSleddingPackages" action="packages">
+				<path locale="en">/en/dog-sledding/packages</path>
+				<path locale="fr">/fr/traineau-a-chiens/forfaits</path>
+			</route>
+			<route id="dogSleddingPhotos" module="" action="photos">
+				<path locale="en">/en/dog-sledding/photos</path>
+				<path locale="fr">/fr/traineau-a-chiens/photos</path>
+			</route>
+			<route id="dogSleddingBooking" module="" action="booking">
+				<path locale="en">/en/dog-sledding/book</path>
+				<path locale="fr">/fr/traineau-a-chiens/reserver</path>
+			</route>
+		</group>
+
+		<!-- MOTONEIGE -->
+
+		<group controller="snowmobile">
+			<route id="snowmobileInfo" action="index">
+				<path locale="en">/en/snowmobile</path>
+				<path locale="en" code="301">/b-tremblant-snowmobile/index.html</path>
+				<path locale="fr">/fr/motoneige</path>
+				<path locale="fr" code="301">/b-tremblant-motoneige/index.html</path>
+			</route>
+			<route id="snowmobilePrices" action="prices">
+				<path locale="en">/en/snowmobile/prices</path>
+				<path locale="fr">/fr/motoneige/prix</path>
+			</route>
+			<route id="snowmobilePhotos" action="photos">
+				<path locale="en">/en/snowmobile/photos</path>
+				<path locale="fr">/fr/motoneige/photos</path>
+			</route>
+			<route id="snowmobileBooking" action="booking">
+				<path locale="en">/en/snowmobile/book</path>
+				<path locale="fr">/fr/motoneige/reserver</path>
+			</route>
+		</group>
+
+		<!-- ATV -->
+
+		<group controller="atv">
+			<route id="atvInfo" action="index">
+				<path locale="en">/en/atv</path>
+				<path locale="fr">/fr/vtt</path>
+			</route>
+			<route id="atvPhotos" action="photos">
+				<path locale="en">/en/atv/photos</path>
+				<path locale="fr">/fr/vtt/photos</path>
+			</route>
+			<route id="atvBooking" action="booking">
+				<path locale="en">/en/atv/book</path>
+				<path locale="fr">/fr/vtt/reserver</path>
+			</route>
+		</group>
+
+		<!-- SURVIVAL -->
+
+		<group controller="survival">
+			<route id="survivalInfo" action="index">
+				<path locale="en">/en/survival</path>
+				<path locale="fr">/fr/survie</path>
+				<path locale="fr" code="301">/h-tremblant-raquette-survie/index.html</path>
+			</route>
+			<route id="survivalPackages" action="packages">
+				<path locale="en">/en/survival/packages</path>
+				<path locale="fr">/fr/survie/forfaits</path>
+			</route>
+			<route id="survivalPhotos" action="photos">
+				<path locale="en">/en/survival/photos</path>
+				<path locale="fr">/fr/survie/photos</path>
+			</route>
+			<route id="survivalBooking" action="booking">
+				<path locale="en">/en/survival/book</path>
+				<path locale="fr">/fr/survie/reserver</path>
+			</route>
+		</group>
+	</group>
+
+	<!-- REMOVED -->
+
+	<route module="index" controller="error" action="error410" code="410">
+		<group locale="fr">
+			<path>/forum</path>
+			<path>/forum/</path>
+			<path>/asl/conception.html</path>
+			<path>/asl</path>
+			<path>/asl/</path>
+			<path>/asl/service.html</path>
+			<path>/pdf/reservation.pdf</path>
+			<path>/facebook</path>
+			<path>/asl/contact_fr.html</path>
+			<path>/asl/produits.html</path>
+			<path>/pdf/reglements.pdf</path>
+			<path>/inscription.pdf</path>
+			<path>/pdf/bgs.pdf</path>
+			<path>/promotions/index.html</path>
+			<path>/plandusite.html</path>
+			<path>/a-tremblant-passes-vip/index.html</path>
+			<path>/organiser.html</path>
+			<path>/index2.html</path>
+			<path>/cartes.pdf</path>
+			<path>/yuma/index.html</path>
+			<path>/pdf/fortouest.pdf</path>
+			<path>/evenement.html</path>
+			<path>/prix.html</path>
+			<path>/membres.html</path>
+			<path>/pdf/decharge.pdf</path>
+			<path>/pdf/weaver.pdf</path>
+			<path>/pdf/weaver.pdf</path>
+		</group>
+		<group locale="en">
+			<path>/pdf/reservation-en.pdf</path>
+			<path>/a-tremblant-vip-passes/index.html</path>
+			<path>/forum/viewtopic.php</path>
+			<path>/yuma/index-en.html</path>
+			<path>/sitemap.html</path>
+		</group>
+	</route>
+</routes>

@@ -1,0 +1,30 @@
+{
+	"fireRun": "La course des feux",
+	"fireRunDesc1": "En groupe, il vous faudra partir un feu, le déplacer et faire bouillir de l’eau pour en faire une tisane! Serez-vous l’équipe gagnante de cette course?",
+	"fireRunDesc2": "D'une durée de 3 heures, ce forfait inclut un guide, une paire de raquettes, bâtons, GPS et tout le matériel pour faire les feux.",
+	"fireRunLocation": "Le premier site pour les débutant, se situe à 500 pieds de l’accueil. Le deuxième site pour les intermédiaires se situe au sommet de la montagne en face de l’accueil.",
+	"fireRunSchedule": [
+		"30 minutes - Formation GPS à  l'intérieur",
+		"30 minutes - Randonnée jusqu’au site",
+		"1 heure 30 minutes - La course des feux",
+		"30 minutes - Retour au chalet et chocolat chaud"
+	],
+	"fireRunPrice1": "<strong>4 à 7 personnes</strong>: price plus taxes par participant",
+	"fireRunPrice2": "<strong>8 personnes et plus</strong>: price plus taxes par participant",
+	
+	"forestSurvival": "Survie en forêt 24h",
+	"forestSurvivalDesc1": "Venez vivre un défi qui mettra votre leadership à l'épreuve! Serez-vous capable de survivre pendant 24 heures avec le strict minimum?",
+	"forestSurvivalDesc2": "14 ans et plus seulement. D'une durée de 24 heures, ce forfair inclu un guide, tout le matériel pour construction de l’abri et pour faire le feu, chaudrons, GPS, collation en soirée et diner du retour.",
+	"forestSurvivalSchedule": [
+		"9h30 - Accueil, formation de base sur la survie en forêt, distribution du matériel",
+		"11h - Départ vers la montagne pour y passer la nuit",
+		"La formation se fait en continue tout au long du séjour",
+		"10h le lendemain - Retour au chalet. Une bonne soupe et un chocolat chaud vous attend!"
+	],
+	"forestSurvivalPrice1": "<strong>4 à 12 personnes</strong>: price plus taxes ",
+	"forestSurvivalPrice2": "<strong>12 participants et plus</strong>: price plus taxes",
+	"forestSurvivalPrice3": "Possibilité d'alloner le séjour sur deux nuits avec un supplément de price par participant.",
+	"forestSurvivalWhatToBring1": "En tout temps, les participants doivent avoir un bon sac à dos d’environ 50 litres et des vêtements appropriés selon les besoins climatiques.",
+	"forestSurvivalWhatToBring2": "Pour la saison d'automne, les participants doivent avoir un sleeping bag d'un minimum -70 celcius.",
+	"forestSurvivalWhatToBring3": "Pour la saison hivernale nous incluons le sleeping bag -30, les raquettes et les bâtons."
+}

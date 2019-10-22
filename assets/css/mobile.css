@@ -1,0 +1,66 @@
+@media (max-width: 767px){
+.desktop{
+	display: none !important;
+}
+/**********************************************************************************************
+									Header
+**********************************************************************************************/
+header{
+	height: 100px;
+}
+/**********************************************************************************************
+									Nav
+**********************************************************************************************/
+nav{
+	font-size: 17px;
+}
+#nav1-toggle,
+#nav2-toggle{
+	display: inline-block;
+	line-height: 75px;
+	text-align: center;
+}
+.nav-toggle-full{
+	width: 100%;
+}
+.nav-toggle-half{
+	width: 50%;
+}
+nav ul{
+	position: absolute;
+    left: 0px;
+    right: 0px;
+	width: 100%;
+	height: auto;
+	margin: 0px;
+	padding: 0px;
+}
+nav ul li,
+nav ul li a+ul{
+	position: relative;
+	display: block;
+	line-height: 75px;
+}
+#nav1 li{
+	border: 1px solid #FF7F00;
+}
+#nav2 li{
+	border: 1px solid #000000;
+}
+nav ul li ul li:first-child{
+	border-width: 0px;
+}
+/**********************************************************************************************
+									Contact
+**********************************************************************************************/
+.contact{
+	text-align: center;
+}
+/**********************************************************************************************
+									Footer
+**********************************************************************************************/
+footer{
+	height: 250px;
+	text-align: center;
+}
+}

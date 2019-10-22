@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="<!-- locale -->">
+<head>
+	<title><!-- title --></title>
+
+    <?= $this->includeFile('layout/meta.phtml'); ?>
+    <?= $this->includeFile('layout/assets.phtml'); ?>
+</head>
+<body>
+    <?= $this->includeFile('layout/header-container.phtml'); ?>
+
+    <?= $this->includeFile('layout/nav-container.phtml'); ?>
+
+	<main>
+        <?= $this->view->render(); ?>
+    </main>
+
+    <?= $this->includeFile('layout/footer-container.phtml'); ?>
+</body>
+</html>

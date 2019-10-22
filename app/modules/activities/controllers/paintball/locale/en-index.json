@@ -1,0 +1,17 @@
+{
+	"paintballInTremblant": "Paintball in Mont-Tremblant, Quebec",
+	"paintballRules":[
+		"Must be 10 years or older to play. Ages 10 and 11 require a parent on the field",
+		"The velocity of markers cannot exceed 300 feet per second",
+		"Players are required to \"freeze\" their opponents when under 20 feet",
+		"No blind firing",
+		"Paintballs purchased elsewhere are not allowed"
+	],
+		
+	"paintballWhatToBring":[
+		"Though we provide a camo suit, we recommend you bring weather appropriate clothes, outdoor shoes or boots, a change of clothes",
+		"A protective cup for men",
+		"For payment, we accept Visa, MasterCard, debit cards and cash",
+		"Proof of identification"
+	]
+}

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<images>
+	<group id="gallery" path="/assets/images/paintball">
+		<image id="paintball1">
+			<file type="main">paintball1.jpg</file>
+			<file type="thumbnail">paintball1_thumb.jpg</file>
+			<alt locale="en">Defending the bus</alt>
+			<alt locale="fr">Défendre le bus</alt>
+		</image>
+		<image id="paintball3">
+			<file type="main">paintball3.jpg</file>
+			<file type="thumbnail">paintball3_thumb.jpg</file>
+			<alt locale="en">Aiming straight at you</alt>
+			<alt locale="fr">Joueur visant la caméra</alt>
+		</image>
+		<image id="paintball4">
+			<file type="main">paintball4.jpg</file>
+			<file type="thumbnail">paintball4_thumb.jpg</file>
+			<alt locale="en">Cover fire</alt>
+			<alt locale="fr">Feu de couverture</alt>
+		</image>
+		<image id="paintball5">
+			<file type="main">paintball5.jpg</file>
+			<file type="thumbnail">paintball5_thumb.jpg</file>
+			<alt locale="en">Paintball night game</alt>
+			<alt locale="fr">Game de paintball la nuit</alt>
+		</image>
+		<image id="paintball6">
+			<file type="main">paintball6.jpg</file>
+			<file type="thumbnail">paintball6_thumb.jpg</file>
+			<alt locale="en">Looking for cover</alt>
+			<alt locale="fr">Joueur qui cherche un abri</alt>
+		</image>
+		<image id="paintball7">
+			<file type="main">paintball7.jpg</file>
+			<file type="thumbnail">paintball7_thumb.jpg</file>
+			<alt locale="en">Sneaking through the bushes</alt>
+			<alt locale="fr">Se faufiler à travers les buissons</alt>
+		</image>
+		<image id="paintball8">
+			<file type="main">paintball8.jpg</file>
+			<file type="thumbnail">paintball8_thumb.jpg</file>
+			<alt locale="en">Intense game of paintball in Mont-Tremblant</alt>
+			<alt locale="fr">Game de paintball intense à Mont-Tremblant</alt>
+		</image>
+		<image id="paintball9">
+			<file type="main">paintball9.jpg</file>
+			<file type="thumbnail">paintball9_thumb.jpg</file>
+			<alt locale="en">Friends playing paintball</alt>
+			<alt locale="fr">Des amis qui jouent au paintball</alt>
+		</image>
+		<image id="paintball10">
+			<file type="main">paintball10.jpg</file>
+			<file type="thumbnail">paintball10_thumb.jpg</file>
+			<alt locale="en">Group of paintball players</alt>
+			<alt locale="fr">Groupe de joueurs de paintball</alt>
+		</image>
+		<image id="paintball12">
+			<file type="main">paintball12.jpg</file>
+			<file type="thumbnail">paintball12_thumb.jpg</file>
+			<alt locale="en">Giving orders is good teamwork</alt>
+			<alt locale="fr">Donner des ordres, c'est du bon travail d'équipe</alt>
+		</image>
+		<image id="paintball13">
+			<file type="main">paintball13.jpg</file>
+			<file type="thumbnail">paintball13_thumb.jpg</file>
+			<alt locale="en">Shooting paintballs from tower</alt>
+			<alt locale="fr">Relaxation au camp</alt>
+		</image>
+		<image id="paintball14">
+			<file type="main">paintball14.jpg</file>
+			<file type="thumbnail">paintball14_thumb.jpg</file>
+			<alt locale="en">Leaning in for the shot</alt>
+			<alt locale="fr">Le tir parfait</alt>
+		</image>
+		<image id="paintball15">
+			<file type="main">paintball15.jpg</file>
+			<file type="thumbnail">paintball15_thumb.jpg</file>
+			<alt locale="en">Playing capture the flag</alt>
+			<alt locale="fr">Jouer à capture the flag</alt>
+		</image>
+		<image id="paintball16">
+			<file type="main">paintball16.jpg</file>
+			<file type="thumbnail">paintball16_thumb.jpg</file>
+			<alt locale="en">Paintball in Mont-Tremblant, Quebec</alt>
+			<alt locale="fr">Paintball à Mont-Tremblant, Québec</alt>
+		</image>
+		<image id="paintball17">
+			<file type="main">paintball17.jpg</file>
+			<file type="thumbnail">paintball17_thumb.jpg</file>
+			<alt locale="en">Paintball group picture</alt>
+			<alt locale="fr">Photo de groupe paintball</alt>
+		</image>
+		<image id="paintball18">
+			<file type="main">paintball18.jpg</file>
+			<file type="thumbnail">paintball18_thumb.jpg</file>
+			<alt locale="en">Paintball group picture</alt>
+			<alt locale="fr">Photo de groupe paintball</alt>
+		</image>
+		<image id="paintball19">
+			<file type="main">paintball19.jpg</file>
+			<file type="thumbnail">paintball19_thumb.jpg</file>
+			<alt locale="en">The village map</alt>
+			<alt locale="fr">Photo de groupe paintball</alt>
+		</image>
+		<image id="paintball20">
+			<file type="main">paintball20.jpg</file>
+			<file type="thumbnail">paintball20_thumb.jpg</file>
+			<alt locale="en">Group of players with a smokey background</alt>
+			<alt locale="fr">Groupe de joueurs de paintball</alt>
+		</image>
+	</group>
+
+	<group id="banners" path="/assets/images/banners">
+		<image id="paintball">
+			<file type="main">paintball.jpg</file>
+			<alt locale="en">Paintball in Mont-Tremblant, Quebec</alt>
+			<alt locale="fr">Paintball à Mont-Tremblant, Québec</alt>
+		</image>
+	</group>
+</images>

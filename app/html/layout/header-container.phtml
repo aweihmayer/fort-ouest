@@ -1,0 +1,12 @@
+<header>
+    <div class="container">
+        <a id="logo" class="lb" href="<?= u('home'); ?>">
+            <?= $this->includeContent('helper/img.phtml', ['image' => $this->contact->logo]); ?>
+        </a>
+        <div class="rb">
+            <a class="icon icon-insta desktop" target="_blank" rel="nofollow" href="<?= $this->contact->socialMedia->instagram; ?>">&nbsp;</a>
+            <a class="icon icon-fb" target="_blank" rel="nofollow" href="<?= $this->contact->socialMedia->facebook; ?>">&nbsp;</a>
+            <a class="icon-custom" id="icon-locale" href="<?= u('home'); ?>"><?= strtoupper($this->request->altLocale); ?></a>
+        </div>
+    </div>
+</header>

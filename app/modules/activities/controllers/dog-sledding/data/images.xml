@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<images>
+	<group id="gallery" path="/assets/images/dog-sledding">
+		<!-- Original order: sledding1, cubs1, sledding2, kids1, dog3, group1, sledding3, dog2, sledding7, sledding4, dog4, sledding9, max1, sonia1, dog1, pack1, pack2, sledding5, sledding6, sledding8 -->
+
+		<image id="cubs1">
+			<file type="main">cubs1.jpg</file>
+			<file type="thumbnail">cubs1_thumb.jpg</file>
+			<alt locale="en">Husky cubs</alt>
+			<alt locale="fr">Bébés husky</alt>
+		</image>
+		<image id="dog1">
+			<file type="main">dog1.jpg</file>
+			<file type="thumbnail">dog1_thumb.jpg</file>
+			<alt locale="en">Close-up of husky</alt>
+			<alt locale="fr">Close-up d'un husky</alt>
+		</image>
+		<image id="dog2">
+			<file type="main">dog2.jpg</file>
+			<file type="thumbnail">dog2_thumb.jpg</file>
+			<alt locale="en">Close-up of husky</alt>
+			<alt locale="fr">Close-up d'un husky</alt>
+		</image>
+		<image id="dog3">
+			<file type="main">dog3.jpg</file>
+			<file type="thumbnail">dog3_thumb.jpg</file>
+			<alt locale="en">Dog sleeping</alt>
+			<alt locale="fr">Chien endormi</alt>
+		</image>
+		<image id="dog4">
+			<file type="main">dog4.jpg</file>
+			<file type="thumbnail">dog4_thumb.jpg</file>
+			<alt locale="en">Dog sledding in Mont-Tremblant, Quebec</alt>
+			<alt locale="fr">Traineau à chiens è Mont-Tremblant, Québec</alt>
+		</image>
+		<image id="group1">
+			<file type="main">group1.jpg</file>
+			<file type="thumbnail">group1_thumb.jpg</file>
+			<alt locale="en">Dog sledding group</alt>
+			<alt locale="fr">Groupe de traineau à chiens</alt>
+		</image>
+		<image id="kids1">
+			<file type="main">kids1.jpg</file>
+			<file type="thumbnail">kids1_thumb.jpg</file>
+			<alt locale="en">Kids playing with dogs</alt>
+			<alt locale="fr">Enfants qui jouent avec des chiens</alt>
+		</image>
+		<image id="max1">
+			<file type="main">max1.jpg</file>
+			<file type="thumbnail">max1_thumb.jpg</file>
+			<alt locale="en">Alaskan Aventure guide with his dog</alt>
+			<alt locale="fr">Guide d'Alaskan Aventure avec son chien</alt>
+		</image>
+		<image id="pack1">
+			<file type="main">pack1.jpg</file>
+			<file type="thumbnail">pack1_thumb.jpg</file>
+			<alt locale="en">Pack of sled dogs</alt>
+			<alt locale="fr">Pack de chiens de traineau</alt>
+		</image>
+		<image id="pack2">
+			<file type="main">pack2.jpg</file>
+			<file type="thumbnail">pack2_thumb.jpg</file>
+			<alt locale="en">Pack of sled dogs</alt>
+			<alt locale="fr">Pack de chiens de traineau</alt>
+		</image>
+		<image id="sledding1">
+			<file type="main">sledding1.jpg</file>
+			<file type="thumbnail">sledding1_thumb.jpg</file>
+			<alt locale="en">Dog sledding</alt>
+			<alt locale="fr">Traineau à chiens</alt>
+		</image>
+		<image id="sledding2">
+			<file type="main">sledding2.jpg</file>
+			<file type="thumbnail">sledding2_thumb.jpg</file>
+			<alt locale="en">Dog sledding</alt>
+			<alt locale="fr">Traineau à chiens</alt>
+		</image>
+		<image id="sledding3">
+			<file type="main">sledding3.jpg</file>
+			<file type="thumbnail">sledding3_thumb.jpg</file>
+			<alt locale="en">Dog sledding</alt>
+			<alt locale="fr">Traineau à chiens</alt>
+		</image>
+		<image id="sledding4">
+			<file type="main">sledding4.jpg</file>
+			<file type="thumbnail">sledding4_thumb.jpg</file>
+			<alt locale="en">Dog sledding in Mont-Tremblant, Quebec</alt>
+			<alt locale="fr">Traineau à chiens à Mont-Tremblant, Québec</alt>
+		</image>
+		<image id="sledding5">
+			<file type="main">sledding5.jpg</file>
+			<file type="thumbnail">sledding5_thumb.jpg</file>
+			<alt locale="en">Dog sledding</alt>
+			<alt locale="fr">Traineau à chiens</alt>
+		</image>
+		<image id="sledding6">
+			<file type="main">sledding6.jpg</file>
+			<file type="thumbnail">sledding6_thumb.jpg</file>
+			<alt locale="en">Dog sledding</alt>
+			<alt locale="fr">Traineau à chiens</alt>
+		</image>
+		<image id="sledding7">
+			<file type="main">sledding7.jpg</file>
+			<file type="thumbnail">sledding6_thumb.jpg</file>
+			<alt locale="en">Dog sledding</alt>
+			<alt locale="fr">Traineau à chiens</alt>
+		</image>
+		<image id="sledding8">
+			<file type="main">sledding8.jpg</file>
+			<file type="thumbnail">sledding8_thumb.jpg</file>
+			<alt locale="en">Dog sledding</alt>
+			<alt locale="fr">Traineau à chiens</alt>
+		</image>
+		<image id="sledding9">
+			<file type="main">sledding9.jpg</file>
+			<file type="thumbnail">sledding9_thumb.jpg</file>
+			<alt locale="en">Dog sledding</alt>
+			<alt locale="fr">Traineau à chiens</alt>
+		</image>
+		<image id="sonia1">
+			<file type="main">sonia1.jpg</file>
+			<file type="thumbnail">sonia1_thumb.jpg</file>
+			<alt locale="en">Alaskan Aventure guide with her dog</alt>
+			<alt locale="fr">Guide d'Alaskan Aventure avec son chien</alt>
+		</image>
+	</group>
+
+	<group id="banners" path="/assets/images/banners">
+		<image id="dogSledding1">
+			<file type="main">dog-sledding1.jpg</file>
+			<alt locale="en">Dog sledding in Mont-Tremblant, Quebec</alt>
+			<alt locale="fr">Traineau à chiens à Mont-Tremblant, Québec</alt>
+		</image>
+		<image id="dogSledding2">
+			<file type="main">dog-sledding2.jpg</file>
+			<alt locale="en">Dog sledding in Mont-Tremblant, Quebec</alt>
+			<alt locale="fr">Traineau à chiens à Mont-Tremblant, Québec</alt>
+		</image>
+	</group>
+</images>

@@ -1,0 +1,73 @@
+@media (min-width: 768px){
+.mobile{
+	display: none;
+}
+/**********************************************************************************************
+									Header
+**********************************************************************************************/
+header{
+	height: 175px;
+	background-image: url('/assets/images/bg.jpg');
+	background-repeat: no-repeat;
+	background-position: center bottom;
+}
+/**********************************************************************************************
+									Nav
+**********************************************************************************************/
+nav{
+	font-size: 24px;
+}
+nav ul{
+	display: block;
+	min-height: 50px;
+	position: static;
+}
+nav ul li{
+	display: inline-block;
+	max-width: 15%;
+}
+nav ul li,
+nav ul li ul li{
+	line-height: 50px;
+	width: 250px;
+}
+nav ul li ul{
+	padding: 0px;
+	display: none;
+}
+nav ul li ul li{
+	display: block;
+	max-width: 100%;
+}
+nav ul li:hover ul{
+	display: block;
+	position: absolute;
+}
+/**********************************************************************************************
+									Contact
+**********************************************************************************************/
+.contact-logo{
+	width: 225px;
+}
+.contact-logo, .contact-info, .contact-hours{
+	display: table-cell;
+	vertical-align: top;
+}
+.contact-hours{
+	padding-left: 10px;
+	text-align: right;
+}
+/**********************************************************************************************
+									Footer
+**********************************************************************************************/
+footer{
+	height: 200px;
+}
+#footer-left{
+	float: left;
+}
+#footer-right{
+	float: right;
+	text-align: right;
+}
+}

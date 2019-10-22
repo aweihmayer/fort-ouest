@@ -1,0 +1,19 @@
+<div class="image-list">
+	<?php
+    $activities = [
+        ['paintball', 'paintball', 'paintballInfo'],
+        ['airsoft', 'airsoft', 'airsoftInfo'],
+        ['dogSledding', 'dogSledding', 'dogSleddingInfo'],
+        ['survival', 'survival', 'survivalInfo'],
+        ['snowmobile', 'snowmobile', 'snowmobileInfo'],
+        ['atv', 'atvShort', 'atvInfo']];
+
+    foreach($activities as $a){
+        $image = $this->images->{$a[0]};
+    ?>
+		<a href="<?= u($a[2]); ?>" class="c15-33">
+			<h2><?= t($a[1]); ?></h2>
+			<?= $this->includeContent('helper/img.phtml', ['image' => $image]); ?>
+		</a>
+	<?php } ?>
+</div>

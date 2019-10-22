@@ -1,0 +1,7 @@
+<div id="gallery">
+	<?php foreach($this->images as $img){ ?>
+		<div data-src="<?= $img->file; ?>" class="gallery-image c25-50">
+            <?= $this->includeContent('helper/img.phtml', ['image' => $img, 'type' => 'thumbnail']); ?>
+		</div>
+	<?php } ?>
+</div>

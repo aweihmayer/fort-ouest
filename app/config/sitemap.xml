@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+
+    <route id="home" controller="index" action="index">
+        <path locale="en">/en</path>
+        <path locale="fr">/fr</path>
+        <path locale="fr"></path>
+    </route>
+
+    <!-- PAINTBALL -->
+
+    <route id="paintball_info" 		controller="paintball" 	action="index">
+        <path locale="en">/en/paintball</path>
+        <path locale="fr">/fr/paintball</path>
+    </route>
+    <route id="paintball_prices" 	controller="paintball" 	action="prices">
+        <path locale="en">/en/paintball/prices</path>
+        <path locale="fr">/fr/paintball/prix</path>
+    </route>
+    <route id="paintball_members" 	controller="paintball" 	action="members">
+        <path locale="en">/en/paintball/members</path>
+        <path locale="fr">/fr/paintball/membres</path>
+    </route>
+    <route id="paintball_photos" 	controller="paintball" 	action="photos">
+        <path locale="en">/en/paintball/photos</path>
+        <path locale="fr">/fr/paintball/photos</path>
+    </route>
+    <route id="paintball_booking" 	controller="paintball" 	action="booking">
+        <path locale="en">/en/paintball</path>
+        <path locale="fr">/fr/paintball</path>
+    </route>
+</routes>

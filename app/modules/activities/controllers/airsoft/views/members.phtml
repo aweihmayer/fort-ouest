@@ -1,0 +1,36 @@
+<section>
+	<h1><?= t('memberShipSlogan'); ?></h1>
+		
+	<fieldset>
+		<legend><?= t('membershipsInclude'); ?></legend>
+		<ul class="list-unstyled">
+			<li>
+				<div class="icon icon-ticket">&nbsp;</div> <?= t('membershipAdvantageEntry', ['price' => $this->products->getItemPrice('entryMember', true)]); ?>
+			</li>
+			<li>
+				<div class="icon icon-mask">&nbsp;</div> <?= t('membershipAdvantageEquipment'); ?>
+			</li>
+			<li>
+				<div class="icon icon-plus">&nbsp;</div> <?= t('membershipAdvantagePaintball', ['link' => u('paintballMembers')]); ?>
+			</li>
+		</ul>
+	</fieldset>
+	
+	<div class="block-list">
+		<div class="block-list-item c33-50">
+			<h2><?= t('membershipDjs'); ?></h2>
+			<div class="font-large"><?= $this->products->getItemPrice('membershipDjs', true); ?></div>
+			<?= $this->includeContent('helper/ul.phtml', ['items' => t('membershipDjsDescription'), 'class' => 'list-unstyled']); ?>
+		</div>
+		<div class="block-list-item c33-50">
+			<h2><?= t('membershipYear'); ?></h2>
+			<div class="font-large"><?= $this->products->getItemPrice('membershipYear', true); ?></div>
+			<?= $this->includeContent('helper/ul.phtml', ['items' => t('membershipYearDescription'), 'class' => 'list-unstyled']); ?>
+		</div>
+		<div class="block-list-item c33-50">
+			<h2><?= t('membershipLife'); ?></h2>
+			<div class="font-large"><?= $this->products->getItemPrice('membershipLife', true); ?></div>
+			<?= $this->includeContent('helper/ul.phtml', ['items' => t('membershipLifeDescription'), 'class' => 'list-unstyled']); ?>
+		</div>
+	</div>
+</section>

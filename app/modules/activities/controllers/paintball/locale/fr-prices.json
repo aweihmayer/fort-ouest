@@ -1,0 +1,15 @@
+{
+	"entryIncludes": "Une entrée inclut",
+	"packageNotIncludeEntry": "Les forfaits n'incluent pas les passes d'entrée",
+
+	"package1": "Combattant",
+	"package2": "Recon",
+	"package3": "Opérateur",
+	"package4": "Contracteur",
+	
+	"balls100": "100",
+	"balls500": "500",
+	"balls1000": "1000",
+	"balls2000": "2000",
+	"balls3500": "3500"
+}

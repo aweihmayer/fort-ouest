@@ -1,0 +1,17 @@
+{
+	"paintballInTremblant": "Paintball à Mont-Tremblant, Québec",
+	"paintballRules":[
+		"10 ans et plus seulement. 10 et 11 ans ont besoin d'un parent sur le terrain",
+		"La vitesse des marqueurs ne peut pas dépasser 300 pieds par seconde",
+		"Les joueurs doivent crier «freeze» à leurs adversaires lorsqu'ils sont à moins de 20 pieds",
+		"Pas de tir à l'aveuglette",
+		"Les balles de paintball achetées ailleurs ne sont pas autorisées"
+	],
+		
+	"paintballWhatToBring":[
+		"Bien que nous fournissions un habit de camouflage, nous vous recommandons d'apporter des vêtements adaptés à la météo, des chaussures ou des bottes d'extérieur et un changement de vêtements",
+		"Une coupe protectrice pour les hommes",
+		"Pour le paiement, nous acceptons les cartes Visa, MasterCard, les cartes de débit et l'argent comptant",
+		"Preuve d'identification"
+	]
+}

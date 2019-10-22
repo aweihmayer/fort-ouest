@@ -1,0 +1,67 @@
+{
+  "astpbBookTxt1":  "Appelez-nous au 819-687-9721 maintenant! Faites-nous savoir vos détails et ceux de votre groupe afin que nous puissions créer une expérience parfaite pour vous.",
+  "astpbBookStep1": [
+    "Votre nom complet",
+    "Votre date des jeux",
+    "Votre heure d'arrivée (10h ou 14h ou autre)",
+    "Votre # de téléphone",
+    "Votre courriel",
+    "Le nombre approximatif de joueurs"
+  ],
+
+  "astpbBookOnline": "<a href=\"http://www.vantora.com/Paintball/pfo/\">Réservez en ligne ici</a>. Ou si vous préférez...",
+  "astpbBookStep2": "Payez pour votre réservation",
+  "astpbBookWaiver": "Une fois que vous aurez reçu votre confirmation par courriel, nous vous invitons par la suite à remplir votre décharge de joueur à l'avance. En remplissant votre décharge à l'avance, vous économisez 10 à 30 minutes lors de votre journée de jeux.",
+  "astpbDepositMethods": "2 méthodes de réservations",
+  "astpbDeposit1": "Si vous réserver avec un dépôt de 20 $ par personne nous n'offrons pas de gratuités.",
+  "astpbDeposit2": "Si vous réservez pour votre événement en pré-payant votre groupe au complet au moins 3 semaines avant votre date, dépendant du nombre de participants, nous ajoutons des gratuités. Contactez nous pour plus de détails.",
+  "astpbMoveDate": "Vous pouvez déplacer la date de l'événement pour des frais de 10%.",
+  "astpbAddPlayers": "Vous pouvez ajouter des joueurs à tout moment en nous contactant à l'avance.",
+
+  "astpbCancellationPolicy": [
+    "Plus de 30 jours avant l'événement, 100% de votre dépôt peut être remboursé.",
+    "15 à 29 jours avant l'événement, 70% de votre dépôt peut être remboursé.",
+    "Moins de 14 jours avant l'événement, votre dépôt ne peut être remboursé, mais votre dépôt reste en banque pour 1 an. Vous avez donc, 1 an suivant votre annulation pour utiliser votre dépôt pour un autre événement."
+  ],
+
+  "memberShipSlogan": "Épargnez en devenant membre!",
+  "membershipDjs": "DJS",
+  "membershipYear": "Annuelle",
+  "membershipLife": "À vie",
+  "membershipsInclude": "Chaque adhésion inclut",
+  "membershipAdvantageEntry": "Entrée à price toute l'année",
+  "membershipAdvantageEquipment": "Rabais sur l'achat d'équipement",
+
+  "membershipDjsDescription": [
+    "Cette carte ne fonctionne que le dimanche et le jeudi de 18h à la fermeture",
+    "Après 4 ans d'adhésion à DJS, vous devenez membre à vie"
+  ],
+  "membershipYearDescription": ["Après 2 ans d'adhésion annuelle, vous devenez membre à vie"],
+
+  "entryHeading": "Entrées",
+  "entries": "Entrées",
+  "summer": "Été",
+  "winter": "Hiver",
+  "dayFull": "Journée complète",
+  "dayHalf": "Demi-journée (2h)",
+
+  "grenadePaint": "Grenade de peinture",
+  "grenadeSmoke": "Grenade fumigène",
+  "smallSmokeGrenade": "Petite grenade fumigène",
+  "marker": "Marqueur",
+  "mask": "Masque",
+  "maskThermal": "Masque thermique",
+  "suit": "Habit camouflage",
+  "gloves": "Gants de protection",
+  "shemagh": "Protège-cou",
+  "precisionBarrel": "Canon de précision",
+  "markerA5": "Marqueur héro",
+  "markerSpeedball": "Marqueur de compétition",
+  "pod": "Pod",
+  "beltSmall": "Petite ceinture de pods",
+  "beltLarge": "Ceinture de pods",
+  "vest": "Gilet tactique",
+  "gasTank": "Réservoir nitro",
+  "bodyArmor": "Body armor (pour homme)",
+  "bodyArmorWomen": "Body armor (pour femme)"
+}

@@ -1,0 +1,20 @@
+{
+	"airsoftInTremblant": "Airsoft à Mont-Tremblant, Québec",
+	"airsoftRules": [
+		"10 ans et plus seulement. 10 et 11 ans ont besoin d'un parent sur le terrain",
+		"Les marqueurs automatiques et semi-automatiques sont limités à 400 FPS et doivent «freeze» les adversaires à moins de 20 pieds",
+		"Les marqueurs bolt action sont limités à 450 FPS et doivent «freeze» les adversaires à moins de 60 pieds",
+		"Tout autre vélocité doit être approuvé par Fort Ouest",
+		"Pas de tir à l'aveuglette",
+		"Seuls les BB biodégradables sont autorisés. Les conteneurs doivent être scellés en usine",
+		"Les masques avec des mailles simples pour la protection des yeux ne sont pas autorisés",
+		"En dessous de 18 ans, une protection complète du visage est requise"
+	],
+		
+	"airsoftWhatToBring":[
+		"Bien que nous fournissions un habit de camouflage, nous vous recommandons d'apporter des vêtements adaptés à la météo, des chaussures ou des bottes d'extérieur et un changement de vêtements",
+		"Une coupe protectrice pour les hommes",
+		"Pour le paiement, nous acceptons les cartes Visa, MasterCard, les cartes de débit et l'argent comptant",
+		"Preuve d'identification"
+	]
+}

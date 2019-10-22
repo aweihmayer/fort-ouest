@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contacts>
+	<contact id="fortOuest">
+		<name>Fort Ouest</name>
+		<postalCode>J0T 1A0</postalCode>
+		<address>77, chemin de la Montagne</address>
+		<city>Arundel</city>
+		<province>QC</province>
+		<country>Canada</country>
+		<fullAddress>77, chemin de la Montagne<br/>Arundel, QC, J0T 1A0, Canada</fullAddress>
+		<email>info@fortouest.com</email>
+		<phone>(819) 687-9721</phone>
+		<socialMedia>
+			<media source="facebook">https://www.facebook.com/FortOuestComplex/</media>
+			<media source="instagram">https://www.instagram.com/fortouest/</media>
+		</socialMedia>
+		<hours>
+			<period label="saturdaySunday">9h - 21h</period>
+			<period label="mondayThursday">11h - 18h</period>
+			<period label="friday">11h - 21h</period>
+		</hours>
+		<logo>
+			<file type="main">/assets/images/logos/fort-ouest.png</file>
+			<alt locale="en">Fort Ouest logo</alt>
+			<alt locale="fr">Fort Ouest logo</alt>
+		</logo>
+	</contact>
+	<contact id="dogSledding">
+		<name>Alaskan Aventure Tremblant</name>
+		<website>http://aventurealaskan.com/</website>
+		<bookUrl>http://tremblant.activitybox.ca/public/starttime.aspx?params=VXNlcklkPTMyMCZMb2NhdGlvbklkPTExMyZSZWdpb25JZD00Jkxhbmd1YWdlSWQ9MSZQcm9kdWN0SWQ9MzUmT1BJZD0yMDI3JmludERhdGU9MjAxNjAxMjYmRnJvbUV4dGVybmFsTGluaz0x</bookUrl>
+		<email>info@aventurealaskan.com</email>
+		<phone>(819) 425-1787</phone>
+		<socialMedia>
+			<media source="facebook">https://www.facebook.com/Alaskan.Aventure.Tremblant/</media>
+		</socialMedia>
+		<logo>
+			<file type="main">/assets/images/logos/dog-sledding.png</file>
+			<alt locale="en">Alaskan Aventure logo</alt>
+			<alt locale="fr">Alaskan Aventure logo</alt>
+		</logo>
+	</contact>
+	<contact id="survival">
+		<name>Option Nature</name>
+		<email>info@optionnature.ca</email>
+		<phone>(819) 421-1023</phone>
+		<socialMedia>
+			<media source="facebook">https://www.facebook.com/option.nature/</media>
+		</socialMedia>
+		<logo>
+			<file type="main">/assets/images/logos/survival.jpg</file>
+			<alt locale="en">Option Nature logo</alt>
+			<alt locale="fr">Option Nature logo</alt>
+		</logo>
+	</contact>
+	<contact id="motorSports">
+		<name>Sport Escapade</name>
+		<email>sportescapade@gmail.com</email>
+		<phone>(438) 880-6906</phone>
+		<logo>
+			<file type="main">/assets/images/logos/motorSports.jpg</file>
+			<alt locale="en">Sport Escapade logo</alt>
+			<alt locale="fr">Sport Escapade logo</alt>
+		</logo>
+	</contact>
+</contacts>

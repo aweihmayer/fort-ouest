@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<images>
+	<group id="showcase" path="/assets/images/banners">
+		<image id="survival">
+			<file type="main">survival-vertical.jpg</file>
+			<alt locale="en">Survival experience in Mont-Tremblant, Quebec</alt>
+			<alt locale="fr">Expérience de survie à Mont-Tremblant, Québec</alt>
+		</image>
+
+		<image id="dogSledding">
+			<file type="main">dog-sledding-vertical.jpg</file>
+			<alt locale="en">Dog sledding in Mont-Tremblant, Quebec</alt>
+			<alt locale="fr">Traineau à chiens à Mont-Tremblant, Québec</alt>
+		</image>
+
+		<image id="paintball">
+			<file type="main">paintball-vertical.jpg</file>
+			<alt locale="en">Paintball in Mont-Tremblant, Quebec</alt>
+			<alt locale="fr">Paintball à Mont-Tremblant, Québec</alt>
+		</image>
+
+		<image id="airsoft">
+			<file type="main">airsoft-vertical.jpg</file>
+			<alt locale="en">Airsoft in Mont-Tremblant, Quebec</alt>
+			<alt locale="fr">Airsoft à Mont-Tremblant, Québec</alt>
+		</image>
+
+		<image id="snowmobile">
+			<file type="main">survival-vertical.jpg</file>
+			<alt locale="en">Snowmobile in Mont-Tremblant, Quebec</alt>
+			<alt locale="fr">Motoneige à Mont-Tremblant, Québec</alt>
+		</image>
+
+		<image id="atv">
+			<file type="main">atv-vertical.jpg</file>
+			<alt locale="en">All-terrain vehicle in Mont-Tremblant, Quebec</alt>
+			<alt locale="fr">Véhicules tout-terrain à Mont-Tremblant, Québec</alt>
+		</image>
+	</group>
+</images>

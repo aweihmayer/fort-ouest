@@ -1,0 +1,85 @@
+/**********************************************************************************************
+									Text
+**********************************************************************************************/
+nav a,
+#nav1-toggle,
+#nav2-toggle,
+.icon-custom, .icon-custom-small,
+footer{ 
+	color: #FFFFFF;
+}
+.banner h2, .banner p, .image-list a{
+	color: #000000;
+}
+footer{
+	color: #747474;
+}
+/**********************************************************************************************
+									Background
+**********************************************************************************************/
+#nav2-toggle,
+#nav2,
+#nav1 .nav-selected,
+#nav1 li:hover,
+#icon-locale{
+	background-color: #FF7F00;
+}
+.icon, .icon-custom{
+	background-color: #8CC63F;
+}
+button:hover,
+.btn-xxs,
+#nav1 li ul li,
+#nav2 li:hover,
+#nav1-toggle,
+#nav1,
+#nav2 .nav-selected,
+footer,
+body{
+	background-color: #000000;
+}
+header,
+main{
+	background-color: #FFFFFF;
+}
+#fb-events, .icon-fb, .icon-fb-small{
+	background-color: #3B5998;
+}
+.icon-insta, .icon-insta-small{
+	background-color: #D10869;
+}
+/**********************************************************************************************
+									Items table
+**********************************************************************************************/
+.table-items tr:nth-child(even)  td:nth-child(even){
+	background-color: #8CC63F;
+}
+.table-items tr:nth-child(even)  td:nth-child(odd){
+	background-color: #ABD672;
+}
+.table-items tr:nth-child(odd) td:nth-child(even){
+	background-color: #ABD672;
+}
+.table-items tr:nth-child(odd)  td:nth-child(odd){
+	background-color: #8CC63F;
+}
+.table-items th,
+.table-items.labeled tr:nth-child(even) td:first-child,
+.table-items.labeled tr:nth-child(odd) td:first-child{
+	color: #FFFFFF;
+}
+.table-items th:nth-child(even){
+	background-color: #4C6D20;
+}
+.table-items th:nth-child(odd){
+	background-color: #354C16;
+}
+.table-items.labeled tr:nth-child(even) td:first-child{
+	background-color: #354C16;
+}
+.table-items.labeled tr:nth-child(odd) td:first-child{
+	background-color: #4C6D20;
+}
+.table-items.labeled th:first-child{
+	background-color: #DC9C27;
+}

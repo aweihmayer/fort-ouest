@@ -1,0 +1,5 @@
+<ul <?= (isset($this->class) === true) ? 'class="' . $this->class . '"' : ''; ?>>
+	<?php foreach($this->items as $i){ ?>
+		<li><?= t($i); ?></li>
+	<?php } ?>
+</ul>

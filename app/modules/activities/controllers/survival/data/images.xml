@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<images>
+	<group id="survival" path="/assets/images/survival">
+		<gallery>camp1, gathering2, camp2, fire1, fishing1, fire2, shelter2, fire3, fire4, fire5, fire6, fire7, gathering1, group1, group2, shelter1</gallery>
+
+		<image id="camp1">
+			<file type="main">camp1.jpg</file>
+			<alt locale="en">Survival experience in Mont-Tremblant, Quebec</alt>
+			<alt locale="fr">Expérience de survie à Mont-Tremblant, Québec</alt>
+		</image>
+		<image id="camp2">
+			<file type="main">camp2.jpg</file>
+			<alt locale="en">Boiling water at the camp</alt>
+			<alt locale="fr">Faire bouillir de l'eau au camp</alt>
+		</image>
+		<image id="fire1">
+			<file type="main">fire1.jpg</file>
+			<alt locale="en">Preparing food at night</alt>
+			<alt locale="fr">Préparer de la nourriture la nuit</alt>
+		</image>
+		<image id="fire2">
+			<file type="main">fire2.jpg</file>
+			<alt locale="en">Sitting around the fire</alt>
+			<alt locale="fr">Assis autour du feu</alt>
+		</image>
+		<image id="fire3">
+			<file type="main">fire3.jpg</file>
+			<alt locale="en">Warming up at the fire</alt>
+			<alt locale="fr">Se réchauffer autour du feu</alt>
+		</image>
+		<image id="fire4">
+			<file type="main">fire4.jpg</file>
+			<alt locale="en">Water boiling survival technique</alt>
+			<alt locale="fr">Technique de survie: Bouillir de l'eau</alt>
+		</image>
+		<image id="fire5">
+			<file type="main">fire5.jpg</file>
+			<alt locale="en">Fire at night</alt>
+			<alt locale="fr">Feu la nuit</alt>
+		</image>
+		<image id="fire6">
+			<file type="main">fire6.jpg</file>
+			<alt locale="en">Fire at night #2</alt>
+			<alt locale="fr">Feu la nuit #2</alt>
+		</image>
+		<image id="fire7">
+			<file type="main">fire7.jpg</file>
+			<alt locale="en">Kindling the fire</alt>
+			<alt locale="fr">Allumer le feu</alt>
+		</image>
+		<image id="fishing1">
+			<file type="main">fishing1.jpg</file>
+			<alt locale="en">Catching a fish</alt>
+			<alt locale="fr">Attraper un poisson</alt>
+		</image>
+		<image id="gathering1">
+			<file type="main">gathering1.jpg</file>
+			<alt locale="en">Gathering construction wood</alt>
+			<alt locale="fr">Rassembler le bois de construction</alt>
+		</image>
+		<image id="gathering2">
+			<file type="main">gathering2.jpg</file>
+			<alt locale="en">Gathering firewood</alt>
+			<alt locale="fr">Rassembler  du bois de chauffage</alt>
+		</image>
+		<image id="group1">
+			<file type="main">group1.jpg</file>
+			<alt locale="en">Cheering as a group</alt>
+			<alt locale="fr">Célébration en groupe</alt>
+		</image>
+		<image id="group2">
+			<file type="main">group2.jpg</file>
+			<alt locale="en">Hiking in a group</alt>
+			<alt locale="fr">Randonnée de groupe</alt>
+		</image>
+		<image id="shelter1">
+			<file type="main">shelter1.jpg</file>
+			<alt locale="en">Winter shelter</alt>
+			<alt locale="fr">Abri d'hiver</alt>
+		</image>
+		<image id="shelter2">
+			<file type="main">shelter2.jpg</file>
+			<alt locale="en">Sleeping in winter shelter</alt>
+			<alt locale="fr">Dormir dans un abri d'hiver</alt>
+		</image>
+	</group>
+
+	<group id="banners" path="/assets/images/banners">
+		<image id="survival1">
+			<file type="main">survival1.jpg</file>
+			<alt locale="en">Survival experience in Mont-Tremblant, Quebec</alt>
+			<alt locale="fr">Expérience de survie à Mont-Tremblant, Québec</alt>
+		</image>
+		<image id="survival2">
+			<file type="main">survival2.jpg</file>
+			<alt locale="en">Survival techniques in Mont-Tremblant, Quebec</alt>
+			<alt locale="fr">Techniques de survie à Mont-Tremblant, Québec</alt>
+		</image>
+		<image id="survival3">
+			<file type="main">survival3.jpg</file>
+			<alt locale="en">Survival experience in Mont-Tremblant, Quebec</alt>
+			<alt locale="fr">Expérience de survie à Mont-Tremblant, Québec</alt>
+		</image>
+	</group>
+</images>

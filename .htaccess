@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteBase /
+RewriteCond $1 !^(assets|robots\.txt|sitemap\.xml)
+RewriteRule (.*)  index.php [QSA]

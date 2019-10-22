@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<images>
+	<group id="gallery" path="/assets/images/airsoft">
+		<image id="airsoft1">
+			<file type="main">airsoft1.jpg</file>
+			<file type="thumbnail">airsoft1_thumb.jpg</file>
+			<alt locale="en">Leading the charge</alt>
+			<alt locale="fr">Mener la charge</alt>
+		</image>
+		<image id="airsoft2">
+			<file type="main">airsoft2.jpg</file>
+			<file type="thumbnail">airsoft2_thumb.jpg</file>
+			<alt locale="en">Inside the fort</alt>
+			<alt locale="fr">À l'intérieur du fort</alt>
+		</image>
+		<image id="airsoft3">
+			<file type="main">airsoft3.jpg</file>
+			<file type="thumbnail">airsoft3_thumb.jpg</file>
+			<alt locale="en">Squad of airsoft players</alt>
+			<alt locale="fr">Escouade de joueurs d'airsoft</alt>
+		</image>
+		<image id="airsoft4">
+			<file type="main">airsoft4.jpg</file>
+			<file type="thumbnail">airsoft4_thumb.jpg</file>
+			<alt locale="en">Lock and load</alt>
+			<alt locale="fr">lock and load</alt>
+		</image>
+		<image id="airsoft5">
+			<file type="main">airsoft5.jpg</file>
+			<file type="thumbnail">airsoft5_thumb.jpg</file>
+			<alt locale="en">Medic reviving downed player</alt>
+			<alt locale="fr">Un medic aidant un joueur</alt>
+		</image>
+		<image id="airsoft6">
+			<file type="main">airsoft6.jpg</file>
+			<file type="thumbnail">airsoft6_thumb.jpg</file>
+			<alt locale="en">Players cheering</alt>
+			<alt locale="fr">Des joueurs qui célèbrent</alt>
+		</image>
+		<image id="airsoft7">
+			<file type="main">airsoft7.jpg</file>
+			<file type="thumbnail">airsoft7_thumb.jpg</file>
+			<alt locale="en">Airsoft in Mont-Tremblant, Quebec</alt>
+			<alt locale="fr">Airsoft à Mont-Tremblant, Québec</alt>
+		</image>
+		<image id="airsoft8">
+			<file type="main">airsoft8.jpg</file>
+			<file type="thumbnail">airsoft8_thumb.jpg</file>
+			<alt locale="en">Airsoft group</alt>
+			<alt locale="fr">Groupe d'airsoft</alt>
+		</image>
+		<image id="airsoft9">
+			<file type="main">airsoft9.jpg</file>
+			<file type="thumbnail">airsoft9_thumb.jpg</file>
+			<alt locale="en">Warface</alt>
+			<alt locale="fr">Warface</alt>
+		</image>
+		<image id="airsoft10">
+			<file type="main">airsoft10.jpg</file>
+			<file type="thumbnail">airsoft10_thumb.jpg</file>
+			<alt locale="en">Moving forward</alt>
+			<alt locale="fr">Avancer sur l'ennemi</alt>
+		</image>
+		<image id="airsoft11">
+			<file type="main">airsoft11.jpg</file>
+			<file type="thumbnail">airsoft11_thumb.jpg</file>
+			<alt locale="en">Behind a giant tire</alt>
+			<alt locale="fr">Derrière un pneu géant</alt>
+		</image>
+		<image id="airsoft12">
+			<file type="main">airsoft12.jpg</file>
+			<file type="thumbnail">airsoft12_thumb.jpg</file>
+			<alt locale="en">Helicopter evac</alt>
+			<alt locale="fr">Evacuation hélicoptère</alt>
+		</image>
+		<image id="airsoft13">
+			<file type="main">airsoft13.jpg</file>
+			<file type="thumbnail">airsoft13_thumb.jpg</file>
+			<alt locale="en">Walking back to base in the snow</alt>
+			<alt locale="fr">De retour à la base dans la neige</alt>
+		</image>
+		<image id="airsoft14">
+			<file type="main">airsoft14.jpg</file>
+			<file type="thumbnail">airsoft14_thumb.jpg</file>
+			<alt locale="en">Airsoft winter group</alt>
+			<alt locale="fr">Groupe d'airsoft en hiver</alt>
+		</image>
+		<image id="airsoft15">
+			<file type="main">airsoft15.jpg</file>
+			<file type="thumbnail">airsoft15_thumb.jpg</file>
+			<alt locale="en">Camouflaged sniper in winter</alt>
+			<alt locale="fr">Sniper camouflé en hiver</alt>
+		</image>
+		<image id="airsoft16">
+			<file type="main">airsoft16.jpg</file>
+			<file type="thumbnail">airsoft16_thumb.jpg</file>
+			<alt locale="en">Taking the shot</alt>
+			<alt locale="fr">Viser et tirer</alt>
+		</image>
+		<image id="airsoft17">
+			<file type="main">airsoft17.jpg</file>
+			<file type="thumbnail">airsoft17_thumb.jpg</file>
+			<alt locale="en">Village map</alt>
+			<alt locale="fr">Le village</alt>
+		</image>
+	</group>
+
+	<group id="banners" path="/assets/images/banners">
+		<image id="airsoft">
+			<file type="main">airsoft.jpg</file>
+			<alt locale="en">Airsoft in Mont-Tremblant, Quebec</alt>
+			<alt locale="fr">Airsoft à Mont-Tremblant, Québec</alt>
+		</image>
+	</group>
+</images>

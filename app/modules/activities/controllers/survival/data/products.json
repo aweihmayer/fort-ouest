@@ -1,0 +1,22 @@
+{
+	"fireRun4To7":{
+		"price":55,
+		"type":"fireRun"
+	},
+	"fireRun8OrMore":{
+		"price":45,
+		"type":"fireRun"
+	},
+	"forestSurvival4To12":{
+		"price":180,
+		"type":"24h"
+	},
+	"forestSurvival12OrMore":{
+		"price":160,
+		"type":"24h"
+	},
+	"forestSurvivalExtension":{
+		"price":90,
+		"type":"24h"
+	}
+}

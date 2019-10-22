@@ -1,0 +1,56 @@
+{
+	"activities": "Activities",
+	"paintball": "Paintball",
+	"airsoft": "Airsoft",
+	"dogSledding": "Dog Sledding",
+	"survival": "Wilderness survival",
+	"receptions": "Receptions",
+	"partners": "Partners",
+	"snowmobile": "Snowmobile",
+	"atv": "All-terrain vehicle",
+	"atvShort": "ATV",
+	
+	"index": "Home",
+	"home": "Home",
+	"info": "Info",
+	"prices": "Prices",
+	"packages": "Packages",
+	"photos": "Photos",
+	"members": "Members",
+	"book": "Book",
+	"restaurant": "Restaurant",
+	"contact": "Contact",
+	
+	"taxesNotIncluded": "Taxes not included in prices",
+	"title": "paintball and activities",
+
+	"rules": "Rules",
+	"whatToBring": "What to bring",
+	"required": "Required",
+	"gallery": "Gallery",
+	"cancellationPolicy": "Cancellation policy",
+	"schedule": "Schedule",
+	"specials": "Specials",
+	"equipment": "Equipment",
+	"free": "Free",
+	"packagesInclude": "Every package includes",
+	"contactUs": "Contact us",
+	"photoService": "At Fort Ouest, we thrive on making great memories for you and try to immortalzie these moments on camera. When booking with us, ask about our camera service to get pictures and videos of your day taken for only $40. You will get a USB key at the end of the day with all the pictures! We also occasionally upload a few free pictures on our <a href=\"https://www.facebook.com/pg/FortOuestComplex/photos/?ref=page_internal\" target=\"_blank\">Facebook Page</a>",
+	"askForAvailability": "Ask for availability",
+
+	"address": "Address",
+	"email": "Email",
+	"phone": "Phone",
+	"website": "Website",
+	"bookOnline": "Book online",
+	"bookYourActivity": "Book your activity",
+
+	"activitiesHeading": "Activities in Mont-Tremblant, Quebec",
+
+	"saturdaySunday": "Saturday - Sunday",
+	"mondayThursday": "Monday - Thursday",
+	"friday": "Friday",
+
+	"fortOuestMarketing": "20 minutes away from Mont-Tremblant, Fort Ouest is open all year round and is the most complete outdoors activity center around offering paintball, airsoft, dog sledding, snowmobiling, ATV and wilderness survival."
+
+}

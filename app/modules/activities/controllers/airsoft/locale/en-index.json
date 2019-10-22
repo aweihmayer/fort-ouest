@@ -1,0 +1,20 @@
+{
+	"airsoftInTremblant": "Airsoft in Mont-Tremblant, Quebec",
+	"airsoftRules": [
+		"Must be 10 years or older to play. Ages 10 and 11 require a parent on the field",
+		"Automatic and semi-automatic markers are limited to 400 FPS and must \"freeze\" opponents below a 20 feet range",
+		"Bolt action markers are limited to 450 FPS and must \"freeze\" opponents below a 60 feet range",
+		"Any other velocity must be approved by Fort Ouest",
+		"No blind firing",
+		"Only biodegradeable BBs are allowed. Containers must be factory sealed",
+		"Masks with simple meshes for eye protection are not allowed",
+		"Below 18 years old, full face protection is required"
+	],
+		
+	"airsoftWhatToBring": [
+		"Though we provide a camo suit, we recommend you bring weather appropriate clothes, outdoor shoes or boots and a change of clothes.",
+		"A protective cup for men",
+		"For payment, we accept Visa, MasterCard, debit cards and cash",
+		"Proof of identification"
+	]
+}

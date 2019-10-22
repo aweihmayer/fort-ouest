@@ -1,0 +1,26 @@
+{
+	"adult":{
+		"price":128,
+		"type":"entry"
+	},
+	"adultGroup":{
+		"price":128,
+		"type":"entry"
+	},
+	"teen":{
+		"price":96,
+		"type":"entry"
+	},
+	"child":{
+		"price":86,
+		"type":"entry"
+	},
+	"baby":{
+		"price":50,
+		"type":"entry"
+	},
+	"photos":{
+		"price":45,
+		"type":"services"
+	}
+}

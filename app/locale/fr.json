@@ -1,0 +1,55 @@
+{
+	"activities": "Activités",
+	"paintball": "Paintball",
+	"airsoft": "Airsoft",
+	"dogSledding": "Traineau à chiens",
+	"survival": "Survie en forêt",
+	"receptions": "Réceptions",
+	"partners": "Partenaires",
+	"snowmobile": "Motoneige",
+	"atv": "Véhicule tout-terrain",
+	"atvShort": "VTT",
+	
+	"index": "Accueil",
+	"home": "Accueil",
+	"info": "Info",
+	"prices": "Prix",
+	"packages": "Forfaits",
+	"photos": "Photos",
+	"members": "Membres",
+	"book": "Réserver",
+	"restaurant": "Restaurant",
+	"contact": "Contact",
+	
+	"taxesNotIncluded": "Taxes non incluses dans les prix",
+	"title": "paintball et activités",
+
+	"rules": "Règlements",
+	"whatToBring": "À apporter",
+	"required": "Requis",
+	"gallery": "Galerie",
+	"cancellationPolicy": "Politique d'annulation",
+	"schedule": "Programme",
+	"specials": "Speciaux",
+	"equipment": "Équipement",
+	"free": "Gratuit",
+	"packagesInclude": "Tous les forfaits incluent",
+	"contactUs": "Contactez nous",
+	"photoService": "Chez Fort Ouest, nous avons le mandat de créer de souvenirs innoubliables et nous essayons d'immortaliser ceux-ci sur caméra. Quand vous réservez avec nous, demandez nous à propos de notre service de caméra afin que nous puissions prendre vos photos et vidéos de votre journée pour un frais de $40. Nous vous remettrons en fin de journée un clef USB avec toutes les photos! Parfois quelques photos peuvent être affichées gratuitement sur notre <a href=\"https://www.facebook.com/pg/FortOuestComplex/photos/?ref=page_internal\" target=\"_blank\">page Facebook</a>",
+	"askForAvailability": "Demandez pour la disponibilité",
+
+	"address": "Address",
+	"email": "Email",
+	"phone": "Tel.",
+	"website": "Site web",
+	"bookOnline": "Réservez en ligne",
+	"bookYourActivity": "Réservez votre activité",
+
+	"activitiesHeading": "Activités à Mont-Tremblant, Québec",
+
+	"saturdaySunday": "Samedi - dimanche",
+	"mondayThursday": "Lundi - jeudi",
+	"friday": "Vendredi",
+
+	"fortOuestMarketing": "À 20 minutes du Mont-Tremblant, Fort Ouest est ouvert à l'année longue et c'est le centre d'activités plein air le plus complet de la région. Découvrez le paintball, l'airsoft, le traineau à chiens, la motoneige, le VTT et la survie en forêt."
+}

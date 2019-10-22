@@ -1,0 +1,6 @@
+<section>
+	<h1><?= t('bookYourActivity'); ?></h1>
+	<p><?= t('bookTxt'); ?></p>
+	<?= $this->includeContent('content/contact.phtml', ['contact' => $this->contacts->survival]); ?>
+	<?= $this->includeContent('content/contact.phtml', ['contact' => $this->contacts->fortOuest]); ?>
+</section>

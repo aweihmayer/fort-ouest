@@ -1,0 +1,33 @@
+<section>
+	<h1><?= t('breakfast'); ?></h1>
+	<?= $this->includeContent('helper/table.phtml', ['items' => $this->products->getItemsByType('breakfast')->toTable(), 'class' => 'menu']); ?>
+</section>
+<section>
+	<h1><?= t('appetizers'); ?></h1>
+	<?= $this->includeContent('helper/table.phtml', ['items' => $this->products->getItemsByType('appetizers')->toTable(), 'class' => 'menu']); ?>
+</section>
+<section>
+	<h1><?= t('expressMeals'); ?></h1>
+	<?= $this->includeContent('helper/table.phtml', ['items' => $this->products->getItemsByType('express')->toTable(), 'class' => 'menu']); ?>
+</section>
+<section>
+	<h1><?= t('specialties'); ?></h1>
+	<?= $this->includeContent('helper/table.phtml', ['items' => $this->products->getItemsByType('specialties')->toTable(), 'class' => 'menu']); ?>
+</section>
+<section>
+	<h1><?= t('combos'); ?></h1>
+	<p><?= t('popToBeer', ['price' => $this->products->getItemPrice('popToSoda')]); ?></p>
+	<?= $this->includeContent('helper/table.phtml', ['items' => $this->products->getItemsByType('combos')->toTable(), 'class' => 'menu']); ?>
+</section>
+<section>
+	<h1><?= t('desserts'); ?></h1>
+	<?= $this->includeContent('helper/table.phtml', ['items' => $this->products->getItemsByType('desserts')->toTable(), 'class' => 'menu']); ?>
+</section>
+<section>
+	<h1><?= t('alcohol'); ?></h1>
+	<?= $this->includeContent('helper/table.phtml', ['items' => $this->products->getItemsByType('alcohol')->toTable(), 'class' => 'menu']); ?>
+</section>
+<section>
+	<h1><?= t('beverages'); ?></h1>
+	<?= $this->includeContent('helper/table.phtml', ['items' => $this->products->getItemsByType('beverages')->toTable(), 'class' => 'menu']); ?>
+</section>

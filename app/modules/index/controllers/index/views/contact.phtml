@@ -1,0 +1,33 @@
+<section>
+	<h1><?= t('contactUs'); ?></h1>
+	
+	<div class="block-list">
+		<div class="block-list-item c25-50">
+			<div class="icon icon-mail">&nbsp;</div>
+			<div><?= $this->contact->email; ?></div>
+		</div>
+		<div class="block-list-item c25-50">
+			<div class="icon icon-location">&nbsp;</div>
+			<div><?= $this->contact->fullAddress; ?></div>
+		</div>
+		<div class="block-list-item c25-50">
+			<div class="icon icon-phone">&nbsp;</div>
+			<div><?= $this->contact->phone; ?></div>
+		</div>
+		<div class="block-list-item c25-50">
+			<a class="icon icon-fb" target="_blank" rel="nofollow" href="<?= $this->contact->socialMedia->facebook; ?>">&nbsp;</a>
+		</div>
+	</div>
+	
+	<div class="block-list">
+		<?php foreach($this->contact->hours as $days => $hour){ ?>
+			<div class="block-list-item c33-50">
+				<strong><?= t($days); ?></strong>: <?= $hour; ?>
+			</div>
+		<?php } ?>
+	</div>
+	
+	<a id="map" href="https://www.google.ca/maps/place/Paintball+Fort+Ouest/@46.0310149,-74.6658,11.63z/data=!4m5!3m4!1s0x4ccf0c035cfd2ebd:0x2cdd3d878fd99f84!8m2!3d46.0146267!4d-74.5846879" target="_blank" rel="nofollow">
+		<img alt="Map Fort Ouest" src="/assets/images/map.jpg"/>
+	</a>
+</section>

@@ -1,0 +1,16 @@
+{
+	"snowmobilePackagesDesc": "Tous les forfaits incluent une motoneige pouvant accueillir 2 personnes avec tout l'équipement nécessaire.",
+	"optionalGuide": "Les guides sont optionnels. Demandez pour la disponibilité.",
+	"minimum2Snowmobiles": "Minimum de 2 motoneiges",
+	"helmet": "Casque",
+	"gas": "Essence",
+	"accessPass": "Passe d'accès",
+	"clothes": "Vêtements",
+	"gasNotIncluded": "ESSENCE NON INCLUS",
+	
+	"package1": "Randonnée 1h",
+	"package2": "Randonnée 2h",
+	"package2Night": "Randonnée en soirée 2h",
+	"package4": "Randonnée 4h",
+	"packageDay": "Randonnée journée complète"
+}

@@ -1,0 +1,21 @@
+{
+	"index": "index",
+	"paintball": "paintball",
+	"airsoft": "airsoft",
+	"atv": "atv",
+	"snowmobile": "snowmobile",
+	"dogSledding": "dog-sledding",
+	"survival": "survival",
+	"receptions": "receptions",
+	"info": "info",
+	"prices": "prices",
+	"packages": "packages",
+	"photos": "photos",
+	"guide": "guide",
+	"members": "members",
+	"book": "book",
+	"restaurant": "restaurant",
+	"partners": "partners",
+	"contact": "contact",
+	"activities": "activities"
+}

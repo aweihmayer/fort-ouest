@@ -1,0 +1,117 @@
+<section>
+	<h1><?= t('entryHeading'); ?></h1>
+	
+	<fieldset>
+		<legend><?= t('entryIncludes'); ?></legend>
+		<div class="block-list">
+			<div class="block-list-item c25-33">
+				<div class="icon icon-marker">&nbsp;</div>
+				<div><?= t('marker'); ?></div>
+			</div>
+			<div class="block-list-item c25-33">
+				<div class="icon icon-mask">&nbsp;</div>
+				<div><?= t('mask'); ?></div>
+			</div>
+			<div class="block-list-item c25-33">
+				<div class="icon icon-camera">&nbsp;</div>
+				<div><?= t('photos'); ?><br/><span class="font-small">*<?= t('askForAvailability'); ?></span></div>
+			</div>
+		</div>
+	</fieldset>
+	<table class="table-items labeled">
+		<thead>
+			<tr>
+				<th><?= t('entries'); ?></th>
+				<th><?= t('summer'); ?></th>
+				<th><?= t('winter'); ?></th>
+			</tr>
+		</thead>
+		<tr>
+			<td><?= t('dayHalf'); ?></td>
+			<td><?= $this->products->getItemPrice('entryHalfSummer'); ?></td>
+			<td><?= $this->products->getItemPrice('entryHalfWinter'); ?></td>
+		</tr>
+		<tr>
+			<td><?= t('dayFull'); ?></td>
+			<td><?= $this->products->getItemPrice('entryFullSummer'); ?></td>
+			<td><?= $this->products->getItemPrice('entryFullWinter'); ?></td>
+		</tr>
+	</table>
+</section>
+<section>
+	<h1><?= t('packages'); ?></h1>
+	
+	<p class="font-small">*<?= t('packageNotIncludeEntry'); ?></p>
+	<fieldset>
+		<legend><?= t('packagesInclude'); ?></legend>
+		<div class="block-list">
+			<div class="block-list-item c25-50">
+				<div class="icon icon-balls">&nbsp;</div>
+				<div>Paintballs</div>
+			</div>
+			<div class="block-list-item c25-50">
+				<div class="icon icon-suit">&nbsp;</div>
+				<div><?= t('suit'); ?></div>
+			</div>
+			<div class="block-list-item c25-50">
+				<div class="icon icon-hand">&nbsp;</div>
+				<div><?= t('gloves'); ?></div>
+			</div>
+			<div class="block-list-item c25-50">
+				<div class="icon icon-shemagh">&nbsp;</div>
+				<div><?= t('shemagh'); ?></div>
+			</div>
+		</div>
+	</fieldset>
+	
+	<div class="block-list">
+		<div class="block-list-item c25-50">
+			<h2><?= t('package1'); ?></h2>
+			<div class="sprite-rank sprite-rank-1">&nbsp;</div>
+			<div class="font-large"><?= $this->products->getItemPrice('package1'); ?></div>
+			<ul class="list-unstyled">
+				<li>125 paintballs</li>
+			</ul>
+		</div>
+		<div class="block-list-item c25-50">
+			<h2><?= t('package2'); ?></h2>
+			<div class="sprite-rank sprite-rank-2">&nbsp;</div>
+			<div class="font-large"><?= $this->products->getItemPrice('package2'); ?></div>
+			<ul class="list-unstyled">
+				<li>500 paintballs</li>
+			</ul>
+		</div>
+		<div class="block-list-item c25-50">
+			<h2><?= t('package3'); ?></h2>
+			<div class="sprite-rank sprite-rank-3">&nbsp;</div>
+			<div class="font-large"><?= $this->products->getItemPrice('package3'); ?></div>
+			<ul class="list-unstyled">
+				<li>500 paintballs</li>
+				<li><?= t('beltLarge'); ?></li>
+				<li><?= t('markerA5'); ?></li>
+			</ul>
+		</div>
+		<div class="block-list-item c25-50">
+			<h2><?= t('package4'); ?></h2>
+			<div class="sprite-rank sprite-rank-4">&nbsp;</div>
+			<div class="font-large"><?= $this->products->getItemPrice('package4'); ?></div>
+			<ul class="list-unstyled">
+				<li>1000 paintballs</li>
+				<li><?= t('vest'); ?></li>
+				<li><?= t('markerSpeedball'); ?></li>
+			</ul>
+		</div>
+	</div>
+</section>
+<section>
+	<h1>À la carte</h1>
+	
+	<h2>Paintballs</h2>
+	<?= $this->includeContent('helper/table.phtml', ['items' => $this->products->getItemsByType('paintballs')->toTable(true), 'class' => 'table-items']); ?>
+	
+	<h2>Grenades</h2>
+	<?= $this->includeContent('helper/table.phtml', ['items' => $this->products->getItemsByType('grenades')->toTable(true), 'class' => 'table-items']); ?>
+	
+	<h2><?= t('equipment'); ?></h2>
+	<?= $this->includeContent('helper/table.phtml', ['items' => $this->products->getItemsByType('equipment')->toTable(true), 'class' => 'table-items']); ?>
+</section>

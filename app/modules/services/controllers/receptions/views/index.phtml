@@ -1,0 +1,18 @@
+<section>
+	<h1><?= t('receptionsHeading'); ?></h1>
+	
+	<p><?= t('receptionsTxt1'); ?></p>
+	<p><?= t('receptionsTxt2'); ?></p>
+	<p><?= t('receptionsTxt3'); ?></p>
+	<p><?= t('receptionsTxt4'); ?></p>
+	<p><?= t('receptionsTxt5'); ?></p>
+	<p><?= t('receptionsTxt6'); ?></p>
+
+	<div class="image-list">
+		<?php foreach($this->images as $image){ ?>
+			<div class="c25-50">
+                <?= $this->includeContent('helper/img.phtml', ['image' => $image]); ?>
+			</div>
+		<?php } ?>
+	</div>
+</section>

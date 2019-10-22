@@ -1,0 +1,11 @@
+<section>
+	<h1><?= t('airsoftInTremblant'); ?></h1>
+	<?= $this->includeContent('content/banner.phtml', ['image' => $this->images->airsoft]); ?>
+	<p><?= t('marketing'); ?></p>
+
+	<h2><?= t('rules'); ?></h2>
+	<?= $this->includeContent('helper/ul.phtml', ['items' => t('airsoftRules')]); ?>
+
+	<h2><?= t('whatToBring'); ?></h2>
+	<?= $this->includeContent('helper/ul.phtml', ['items' => t('airsoftWhatToBring')]); ?>
+</section>

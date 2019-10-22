@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nav>
+	<link route="home" module="index" label="home"/>
+	<link route="activities" module="activities" label="activities">
+		<link route="paintballInfo" controller="paintball" label="paintball">
+			<link route="paintballInfo" label="info"/>
+			<link route="paintballPrices" label="prices"/>
+			<link route="paintballMembers" label="members"/>
+			<link route="paintballPhotos" label="photos"/>
+			<link route="paintballBooking" label="book"/>
+		</link>
+		<link route="airsoftInfo" controller="airsoft" label="airsoft">
+			<link route="airsoftInfo" label="info"/>
+			<link route="airsoftPrices" label="prices"/>
+			<link route="airsoftMembers" label="members"/>
+			<link route="airsoftPhotos" label="photos"/>
+			<link route="airsoftBooking" label="book"/>
+		</link>
+		<link route="dogSleddingInfo" controller="dog-sledding" label="dogSledding">
+			<link route="dogSleddingInfo" label="info"/>
+			<link route="dogSleddingPackages" label="packages"/>
+			<link route="dogSleddingPhotos" label="photos"/>
+			<link route="dogSleddingBooking" label="book"/>
+		</link>
+		<link route="survivalInfo" controller="survival" label="survival">
+			<link route="survivalInfo" label="info"/>
+			<link route="survivalPackages" label="packages"/>
+			<link route="survivalPhotos" label="photos"/>
+			<link route="survivalBooking" label="book"/>
+		</link>
+		<link route="snowmobileInfo" controller="snowmobile" label="snowmobile">
+			<link route="snowmobileInfo" label="info"/>
+			<link route="snowmobilePrices" label="prices"/>
+			<link route="snowmobilePhotos" label="photos"/>
+			<link route="snowmobileBooking" label="book"/>
+		</link>
+		<link route="atvInfo" controller="atv" label="atv">
+			<link route="atvInfo" label="info"/>
+			<link route="snowmobilePrices" label="prices"/>
+			<link route="atvBooking" label="book"/>
+		</link>
+	</link>
+	<link route="receptionInfo" module="receptions" label="receptions"/>
+	<link route="restaurant" module="restaurant" label="restaurant"/>
+	<link route="partners" module="index" label="partners"/>
+	<link route="contact" module="index" label="contact"/>
+</nav>

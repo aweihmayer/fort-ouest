@@ -1,0 +1,27 @@
+<section>
+	<h1><?= t('entryHeading'); ?></h1>
+	
+	<table class="table-items labeled">
+		<thead>
+			<tr>
+				<th><?= t('entries'); ?></th>
+				<th><?= t('summer'); ?></th>
+				<th><?= t('winter'); ?></th>
+			</tr>
+		</thead>
+		<tr>
+			<td><?= t('dayHalf'); ?></td>
+			<td><?= $this->products->getItemPrice('entryHalfSummer'); ?></td>
+			<td><?= $this->products->getItemPrice('entryHalfWinter'); ?></td>
+		</tr>
+		<tr>
+			<td><?= t('dayFull'); ?></td>
+			<td><?= $this->products->getItemPrice('entryFullSummer'); ?></td>
+			<td><?= $this->products->getItemPrice('entryFullWinter'); ?></td>
+		</tr>
+	</table>
+</section>
+<section>
+	<h1><?= t('equipment'); ?></h1>
+	<?= $this->includeContent('helper/table.phtml', ['items' => $this->products->getItemsByType('equipment')->toTable(true), 'class' => 'table-items']); ?>
+</section>

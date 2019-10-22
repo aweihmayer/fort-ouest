@@ -1,0 +1,15 @@
+<footer>
+    <div class=" container clearfix">
+        <div id="footer-left"><?= $this->contact->fullAddress; ?></div>
+        <div id="footer-right">
+            <div><?= $this->contact->email; ?></div>
+            <div><?= $this->contact->phone; ?></div>
+            <a class="icon-small icon-insta-small" target="_blank" rel="nofollow" href="<?= $this->contact->socialMedia->instagram; ?>">&nbsp;</a>
+            <a class="icon-small icon-fb-small" target="_blank" rel="nofollow" href="<?= $this->contact->socialMedia->facebook; ?>">&nbsp;</a>
+        </div>
+    </div>
+    <div id="footer-bottom">
+        *<?= t('taxesNotIncluded'); ?><br/>
+        Copyright &copy; <?= date('Y'); ?> Fort Ouest - Alexandre Weihmayer Hamel
+    </div>
+</footer>

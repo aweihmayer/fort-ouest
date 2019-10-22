@@ -1,0 +1,15 @@
+{
+	"entryIncludes": "An entry includes",
+	"packageNotIncludeEntry": "Entry passes are not included in packages",
+
+	"package1": "Fighter",
+	"package2": "Recon",
+	"package3": "Operator",
+	"package4": "Contractor",
+	
+	"balls100": "100",
+	"balls500": "500",
+	"balls1000": "1000",
+	"balls2000": "2000",
+	"balls3500": "3500"
+}

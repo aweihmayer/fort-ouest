@@ -1,0 +1,25 @@
+{
+	"dogSleddingTrek": "2h30 hike",
+	"dogSleddingDesc": "Dog sledding initiation hike. The activity lasts for about 2h30 including 1 hour (10km) of sled driving with 1 driver and 1 passenger. Switch drivers halfway.",
+	"dogSleddingDepartures": "2 departures per day: 9h and 13h.",
+	"dogSleddingSchedule": [
+		"Visiting the kennel",
+		"Introduction to sled driving",
+		"Meeting the dog team",
+		"Preparing the sleds",
+		"1 hour hike in the forest",
+		"Halfway break for snacks and hot drinks",
+		"Back to the kennel, playing with the dogs giving them reward cookies",
+		"A hot soup is served while you view your photos in the chalet"
+	],
+	
+	"dogSleddingPriceDesc": "Per person (taxes not included)",
+	"dogSleddingPriceAdults": "<strong>Adults</strong> (18+): price",
+	"dogSleddingPriceTeens": "<strong>Teenagers</strong> (13-17): price",
+	"dogSleddingPriceChildren": "<strong>Children</strong> (6-12): price",
+	"dogSleddingPriceBabies": "<strong>Infants</strong> (3-5): price",
+	
+	"dogSleddingSpecialsCertificates": "Gift certificates available by email or by mail.",
+	"dogSleddingSpecialsAdultGroup": "Group of 10 or more adults: $10 discount per person (price).",
+	"dogSleddingSpecialsCorpo": "Discounts for school and corporate events."
+}

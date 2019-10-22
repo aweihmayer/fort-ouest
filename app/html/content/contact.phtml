@@ -1,0 +1,31 @@
+<div class="contact">
+	<h2><?= $this->contact->name; ?></h2>
+	<div class="contact-logo">
+        <?= $this->includeContent('helper/img.phtml', ['image' => $this->contact->logo]); ?>
+	</div>
+	<ul class="contact-info list-unstyled">
+		<?php   if($this->contact->fullAddress){ ?>
+			<li><strong><?= t('address'); ?></strong> - <?= $this->contact->fullAddress; ?></li>
+		<?php } if($this->contact->email){ ?>
+			<li><strong><?= t('email'); ?></strong> - <?= $this->contact->email; ?></li>
+		<?php } if($this->contact->phone){ ?>
+			<li><strong><?= t('phone'); ?></strong> - <?= $this->contact->phone; ?></li>
+		<?php } if($this->contact->website){ ?>
+			<li><strong><?= t('website'); ?></strong> - <a href="<?= $this->contact->website; ?>"><?= $this->contact->website; ?></a></li>
+		<?php } if($this->contact->externalBooking){ ?>
+			<li><a href="<?= $this->contact->externalBooking; ?>"><?= t('bookOnline'); ?></a></li>
+		<?php } if($this->contact->socialMedia){ ?>
+			<li>
+				<?php if(isset($this->contact->socialMedia->facebook)){ ?><a class="icon-small icon-fb-small" target="_blank" rel="nofollow" href="<?= $this->contact->socialMedia->facebook; ?>">&nbsp;</a><?php } ?>
+				<?php if(isset($this->contact->socialMedia->instagram)){ ?><a class="icon-small icon-insta-small" target="_blank" rel="nofollow" href="<?= $this->contact->socialMedia->instagram; ?>">&nbsp;</a><?php } ?>
+			</li>
+		<?php } ?>
+	</ul>
+	<?php if(isset($this->contact->hours)){ ?>
+		<ul class="contact-hours list-unstyled">
+			<?php foreach($this->contact->hours as $days => $hour){ ?>
+				<li><strong><?= t($days); ?></strong>: <?= $hour; ?></li>
+			<?php } ?>
+		</ul>
+	<?php } ?>
+</div>

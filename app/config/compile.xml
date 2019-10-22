@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compile>
+    <file path="main.js">
+        <content>lib.js</content>
+        <content>main.js</content>
+    </file>
+    <file path="main.css">
+        <content>main.css</content>
+        <content>mobile.css</content>
+        <content>desktop.css</content>
+        <content>lib.css</content>
+        <content>colors.css</content>
+        <content>sprites.css</content>
+        <content>content.css</content>
+    </file>
+</compile>

@@ -1,0 +1,142 @@
+{
+	"entryHalfSummer": {
+		"price": 24,
+		"type": "entry"
+	},
+	"entryHalfWinter": {
+		"price": 34,
+		"type": "entry"
+	},
+	"entryFullSummer": {
+		"price": 36.95,
+		"type": "entry"
+	},
+	"entryFullWinter": {
+		"price": 46.95,
+		"type": "entry"
+	},
+	"entryMember": {
+		"price": 5,
+		"type": "entry"
+	},
+	"package1": {
+		"price": 24.95,
+		"type": "packages"
+	},
+	"package2": {
+		"price": 59.95,
+		"type": "packages"
+	},
+	"package3": {
+		"price": 84.95,
+		"type": "packages"
+	},
+	"package4": {
+		"price": 144.95,
+		"type": "packages"
+	},
+	"balls100": {
+		"price": 14,
+		"type": "paintballs"
+	},
+	"balls500": {
+		"price": 55,
+		"type": "paintballs"
+	},
+	"balls1000": {
+		"price": 99,
+		"type": "paintballs"
+	},
+	"balls2000": {
+		"price": 189,
+		"type": "paintballs"
+	},
+	"balls3500": {
+		"price": 299,
+		"type": "paintballs"
+	},
+	"membershipDjs": {
+		"price": 99,
+		"type": "memberships"
+	},
+	"membershipYear": {
+		"price": 199,
+		"type": "memberships"
+	},
+	"membershipLife": {
+		"price": 399,
+		"type": "memberships"
+	},
+	"mask": {
+		"price": 5,
+		"type": "equipment"
+	},
+	"maskThermal": {
+		"price": 15,
+		"type": "equipment"
+	},
+	"suit": {
+		"price": 5,
+		"type": "equipment"
+	},
+	"gloves": {
+		"price": 5,
+		"type": "equipment"
+	},
+	"shemagh": {
+		"price": 5,
+		"type": "equipment"
+	},
+	"precisionBarrel": {
+		"price": 14,
+		"type": "equipment"
+	},
+	"markerA5": {
+		"price": 29,
+		"type": "equipment"
+	},
+	"markerSpeedball": {
+		"price": 49,
+		"type": "equipment"
+	},
+	"gasTank": {
+		"price": 9,
+		"type": "equipment"
+	},
+	"pod": {
+		"price": 1,
+		"type": "equipment"
+	},
+	"beltSmall": {
+		"price": 15,
+		"type": "equipment"
+	},
+	"beltLarge": {
+		"price": 10,
+		"type": "equipment"
+	},
+	"vest": {
+		"price": 16,
+		"type": "equipment"
+	},
+	"bodyArmor": {
+		"price": 5,
+		"type": "equipment"
+	},
+	"bodyArmorWomen": {
+		"price": "free",
+		"type": "equipment"
+	},
+	"grenadePaint": {
+		"price": 9,
+		"type": "grenades"
+	},
+	"grenadeSmoke": {
+		"price": 13,
+		"type": "grenades"
+	},
+	"smallSmokeGrenade": {
+		"price": 9,
+		"type": "grenades"
+	}
+}
