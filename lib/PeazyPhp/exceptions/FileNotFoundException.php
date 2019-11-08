@@ -1,8 +1,8 @@
 <?php
-namespace Peazy\exceptions;
+namespace PeazyPhp\exceptions;
 
-class FileNotFoundException extends \Exception {
-	public function __construct($resourceName, \Exception $previous = null) {
-        parent::__construct('File not found: ' . $resourceName, 404, $previous);
+class FileNotFoundException extends NotFoundException {
+	public function __construct($f) {
+        parent::__construct('File not found: ' . $f);
     }
 }

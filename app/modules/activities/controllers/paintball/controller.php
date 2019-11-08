@@ -20,6 +20,6 @@ class paintballController {
     }
 	
 	public function bookingAction() {
+
 	}
 }
-?>

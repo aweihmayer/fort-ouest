@@ -41,7 +41,5 @@ class Response {
         }
 
         echo $this->getResponse();
-
-        exit;
     }
 }

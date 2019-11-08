@@ -153,6 +153,23 @@
 			</route>
 		</group>
 
+		<!-- LASER -->
+
+		<group controller="laser">
+			<route id="laserInfo" action="index">
+				<path locale="en">/en/laser-tag</path>
+				<path locale="fr">/fr/laser-tag</path>
+			</route>
+			<route id="laserPhotos" action="photos">
+				<path locale="en">/en/laser-tag/photos</path>
+				<path locale="fr">/fr/laser-tag/photos</path>
+			</route>
+			<route id="laserBooking" action="booking">
+				<path locale="en">/en/laser-tag/book</path>
+				<path locale="fr">/fr/laser-tag/reserver</path>
+			</route>
+		</group>
+
 		<!-- MOTONEIGE -->
 
 		<group controller="snowmobile">

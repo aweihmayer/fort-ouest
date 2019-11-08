@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <images>
-	<group id="atv" path="/assets/images/atv">
+	<group id="gallery" path="/assets/images/atv">
 		<image id="atv1">
 			<file type="main">atv1.jpg</file>
 			<file type="thumbnail">atv1_thumb.jpg</file>
@@ -42,6 +42,14 @@
 			<file type="thumbnail">atv7_thumb.jpg</file>
 			<alt locale="en">Driving in water</alt>
 			<alt locale="fr">Conduire dans l'eau</alt>
+		</image>
+	</group>
+
+	<group id="banners" path="/assets/images/banners">
+		<image id="atv">
+			<file type="main">atv.jpg</file>
+			<alt locale="en">All-terrain vehicle in Mont-Tremblant, Quebec</alt>
+			<alt locale="fr">Véhicules tout-terrain à Mont-Tremblant, Québec</alt>
 		</image>
 	</group>
 </images>

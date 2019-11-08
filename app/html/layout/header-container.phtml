@@ -6,7 +6,7 @@
         <div class="rb">
             <a class="icon icon-insta desktop" target="_blank" rel="nofollow" href="<?= $this->contact->socialMedia->instagram; ?>">&nbsp;</a>
             <a class="icon icon-fb" target="_blank" rel="nofollow" href="<?= $this->contact->socialMedia->facebook; ?>">&nbsp;</a>
-            <a class="icon-custom" id="icon-locale" href="<?= u('home'); ?>"><?= strtoupper($this->request->altLocale); ?></a>
+            <a class="icon-custom" id="icon-locale" href="<?= u($this->request->id, $this->request->altLocale); ?>"><?= strtoupper($this->request->altLocale); ?></a>
         </div>
     </div>
 </header>

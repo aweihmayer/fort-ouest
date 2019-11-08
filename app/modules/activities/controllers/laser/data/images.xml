@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<images>
+	<group id="gallery" path="/assets/images/laser">
+		<image id="paintball1">
+			<file type="main">paintball1.jpg</file>
+			<file type="thumbnail">paintball1_thumb.jpg</file>
+			<alt locale="en">Defending the bus</alt>
+			<alt locale="fr">Défendre le bus</alt>
+		</image>
+	</group>
+
+	<group id="banners" path="/assets/images/banners">
+		<image id="paintball">
+			<file type="main">paintball.jpg</file>
+			<alt locale="en">Paintball in Mont-Tremblant, Quebec</alt>
+			<alt locale="fr">Paintball à Mont-Tremblant, Québec</alt>
+		</image>
+	</group>
+</images>

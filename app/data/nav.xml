@@ -22,6 +22,11 @@
 			<link route="dogSleddingPhotos" label="photos"/>
 			<link route="dogSleddingBooking" label="book"/>
 		</link>
+		<link route="laserInfo" controller="laser" label="laserTag">
+			<link route="laserInfo" label="info"/>
+			<link route="laserPhotos" label="photos"/>
+			<link route="laserBooking" label="book"/>
+		</link>
 		<link route="survivalInfo" controller="survival" label="survival">
 			<link route="survivalInfo" label="info"/>
 			<link route="survivalPackages" label="packages"/>
@@ -36,7 +41,7 @@
 		</link>
 		<link route="atvInfo" controller="atv" label="atv">
 			<link route="atvInfo" label="info"/>
-			<link route="snowmobilePrices" label="prices"/>
+			<link route="atvPhotos" label="photos"/>
 			<link route="atvBooking" label="book"/>
 		</link>
 	</link>

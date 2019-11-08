@@ -10,8 +10,8 @@
 	<?= $this->includeContent('helper/ul.phtml', ['items' => t('fireRunSchedule')]); ?>
 
 	<h2><?= t('prices'); ?></h2>
-	<p><?= t('fireRunPrice1', ['price' => $products->getItemPrice('fireRun4To7', true)]); ?></p>
-	<p><?= t('fireRunPrice2', ['price' => $products->getItemPrice('fireRun8OrMore', true)]); ?></p>
+	<p><?= t('fireRunPrice1', ['price' => $this->products->getItemPrice('fireRun4To7', true)]); ?></p>
+	<p><?= t('fireRunPrice2', ['price' => $this->products->getItemPrice('fireRun8OrMore', true)]); ?></p>
 </section>
 <section>
 	<h1><?= t('forestSurvival'); ?></h1>
@@ -28,7 +28,7 @@
 	<?= $this->includeContent('helper/ul.phtml', ['items' => t('forestSurvivalSchedule')]); ?>
 	
 	<h2><?= t('prices'); ?></h2>
-	<p><?= t('forestSurvivalPrice1', ['price' => $products->getItemPrice('forestSurvival4To12', true)]); ?></p>
-	<p><?= t('forestSurvivalPrice2', ['price' => $products->getItemPrice('forestSurvival12OrMore', true)]); ?></p>
-	<p><?= t('forestSurvivalPrice3', ['price' => $products->getItemPrice('forestSurvivalExtension', true)]); ?></p>
+	<p><?= t('forestSurvivalPrice1', ['price' => $this->products->getItemPrice('forestSurvival4To12', true)]); ?></p>
+	<p><?= t('forestSurvivalPrice2', ['price' => $this->products->getItemPrice('forestSurvival12OrMore', true)]); ?></p>
+	<p><?= t('forestSurvivalPrice3', ['price' => $this->products->getItemPrice('forestSurvivalExtension', true)]); ?></p>
 </section>

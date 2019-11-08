@@ -5,7 +5,7 @@ class Content{
     private static $basePath = '';
 	protected $file;
 
-	public function __construct(string $f = null, array $params = []) {
+	public function __construct(string $f = '', array $params = []) {
 	    if (isset($f)) {
             $this->setFile($f);
         }

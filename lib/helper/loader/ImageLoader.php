@@ -6,8 +6,8 @@ use stdClass;
 class ImageLoader {
     public static function load(string $f, string $locale): stdClass {
         $groups = new stdClass();
-        $dom = simplexml_load_file($f);
 
+        $dom = simplexml_load_file($f);
         foreach($dom->group as $groupEl) {
             $id = (String) $groupEl->attributes()->id;
             $groups->$id = self::makeGroup($groupEl, $locale);
@@ -16,7 +16,7 @@ class ImageLoader {
         return $groups;
     }
 
-    private static function makeGroup($groupEl, $locale): stdClass {
+    private static function makeGroup($groupEl, string $locale): stdClass {
         $group = new stdClass();
 
         foreach($groupEl->image as $imageEl) {
@@ -29,7 +29,7 @@ class ImageLoader {
         return $group;
     }
 
-    public static function makeImage($imageEl, $path, $locale): stdClass {
+    public static function makeImage($imageEl, string $path, string $locale): stdClass {
         if($path != '') {
             $path .= '/';
         }

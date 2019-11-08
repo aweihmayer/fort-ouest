@@ -11,7 +11,6 @@ class NavLoader {
         $nav->secondary = [];
 
         $dom = simplexml_load_file($f);
-
         foreach ($dom->link as $link1) {
             $route1 = (string) $link1->attributes()->route;
             $label1 = (string) $link1->attributes()->label;

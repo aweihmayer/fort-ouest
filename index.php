@@ -9,35 +9,31 @@ use helper\loader\ContactLoader;
 use helper\loader\ImageLoader;
 use helper\loader\NavLoader;
 
-// TODO make response object
-
 class RequestHandler {
-    public static $request;
-    public static $router;
-
     public static function execute(): void {
         self::init();
         self::buildRequest();
     }
 
+    // Start session, declare constants, import essential files
     private static function init(): void {
         session_start();
-
         define('ROOT', $_SERVER['DOCUMENT_ROOT']);
         define('APP_PATH', ROOT . '/app/');
         define('LIB_PATH', ROOT . '/lib/');
-
         require LIB_PATH . 'autoload.php';
     }
+
 
     public static function buildRequest(): void {
         $response = new Response();
 
         global $router;
         $router = new Router(APP_PATH . 'config/routes.xml');
-        $route = $router->findRoute($_SERVER['REQUEST_URI']);
 
-        if(!$route) {
+        try {
+            $route = $router->findRoute($_SERVER['REQUEST_URI']);
+        } catch(Exception $ex) {
             $firstPath = explode('/', $_SERVER['REQUEST_URI'])[0];
             $route = [
                 'module' => 'index',
@@ -49,6 +45,7 @@ class RequestHandler {
 
         $route['altLocale'] = $route['locale'] == 'fr' ? 'en' : 'fr';
         $request = new Request($route);
+
         define('MODULE_PATH', APP_PATH . 'modules/' . $request->module . '/');
         define('CONTROLLER_PATH', MODULE_PATH . 'controllers/' . $request->controller . '/');
 
@@ -63,7 +60,8 @@ class RequestHandler {
         }
 
         $controller = self::createController($request);
-        $response->setResponse(self::createContent($request, $controller)->render());
+        $view = self::createContent($request, $controller->view);
+        $response->setResponse($view->render());
 
         $response->send();
     }
@@ -75,6 +73,7 @@ class RequestHandler {
         $controller->request = $request;
         $controller->view =  new stdClass();
         $controller->view->request = $request;
+
         if(method_exists($controller, 'init')) {
             $controller->init();
         }
@@ -85,9 +84,9 @@ class RequestHandler {
         return $controller;
     }
 
-    private static function createContent(Request $request, $controller): Content {
+    private static function createContent(Request $request, stdClass $model): Content {
         $view = new Content(CONTROLLER_PATH . '/views/' . $request->action . '.phtml');
-        $view->applyModel($controller->view);
+        $view->applyModel($model);
 
         $layout = new Content(
             APP_PATH . 'html/layout.phtml',
@@ -128,8 +127,11 @@ function t(string $k, array $replace = []) {
     return $localizer->get($k, $replace);
 }
 
-function u(string $id) {
+function u(string $id, string $locale = null, array $params = []) {
     global $router;
     global $localizer;
-    return $router->findPath($id, $localizer->getLocale());
+    return $router->findPath(
+        $id,
+        isset($locale) ? $locale : $localizer->getLocale(),
+        $params);
 }

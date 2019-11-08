@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<images path="/assets/images/snowmobile">
-	<group id="gallery">
+<images>
+	<group id="gallery" path="/assets/images/snowmobile">
 		<image id="snowmobile1">
 			<file type="main">snowmobile1.jpg</file>
 			<file type="thumbnail">snowmobile1_thumb.jpg</file>
@@ -26,13 +26,13 @@
 			<alt locale="fr">Motoneige sur les sentiers</alt>
 		</image><image id="snowmobile5">
 			<file type="main">snowmobile5.jpg</file>
-		<file type="thumbnail">snowmobile5_thumb.jpg</file>
+			<file type="thumbnail">snowmobile5_thumb.jpg</file>
 			<alt locale="en">Snowmobiling in group</alt>
 			<alt locale="fr">Motoneige en groupe</alt>
 		</image>
 	</group>
 
-	<group id="banners">
+	<group id="banners" path="/assets/images/banners">
 		<image id="snowmobile">
 			<file type="main">snowmobile.jpg</file>
 			<alt locale="en">Snowmobile in Mont-Tremblant, Quebec</alt>

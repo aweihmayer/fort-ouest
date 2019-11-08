@@ -2,11 +2,14 @@
 namespace helper;
 
 class StringHelper {
-	protected static $_salt = 'G8jQ01MiiZz4';
+	CONST SALT = 'G8jQ01MiiZz4';
+	CONST DATE_FORMAT = 'Y-m-d';
 	
-	public static function hashWithSalt($string, $salt = ''){ return sha1($string . $salt . self::getSalt()); }
+	public static function hashWithSalt(string $string, string $salt = ''): string {
+	    return sha1($string . $salt . self::SALT);
+	}
 	
-	public static function random($length = 10){
+	public static function random(int $length = 10): string {
 		$characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
 		$charactersLength = strlen($characters);
 		$randomString = '';
@@ -17,21 +20,18 @@ class StringHelper {
 		
 		return $randomString;
 	}
-	
-	public static function getSalt(){ return self::$_salt; }
-	
-	public static function toDate($date){
+
+	public static function toDate(string $date): string {
 		$time = strtotime($date);
-		$date = date('Y-m-d', $time);
+		$date = date(self::DATE_FORMAT, $time);
 		
 		return $date;
 	}
 	
-	public static function toCurrency($price, $noDecimals = false){
-		if(is_string($price) === true){
+	public static function toCurrency($price, bool $noDecimals = false): string {
+		if(is_string($price)){
 			$price = t($price);
-		}
-		else if(is_numeric($price) === true){
+		} else if(is_numeric($price)){
 			if($noDecimals === false){
 				$price = number_format($price, 2, '.', ',');
 			}
@@ -42,4 +42,3 @@ class StringHelper {
 		return $price;
 	}
 }
-?>

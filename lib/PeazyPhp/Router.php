@@ -5,6 +5,7 @@ use PeazyPhp\exceptions\RouteNotFoundException;
 
 use DOMDocument;
 use DOMXpath;
+use DOMElement;
 
 
 class Router {
@@ -21,13 +22,13 @@ class Router {
 		$this->xpath = new DOMXpath($this->routes);
 	}
 
-	public function findRoute(string $url): array {
+	public function findRoute(string $path): array {
 		$values = [];
 
-        $url = strtok($url,'?');
-        $nodes = $this->xpath->query("//path[text()='" . $url . "']");
+        $path = strtok($path,'?');
+        $nodes = $this->xpath->query("//path[text()='" . $path . "']");
 
-        if ($nodes->length) {
+        if($nodes->length) {
             $n = $nodes[0];
             $values = $this->attributesToArray($n);
 
@@ -36,38 +37,40 @@ class Router {
                 $n = $n->parentNode;
             }
         } else {
-            throw new RouteNotFoundException($url);
+            throw new RouteNotFoundException($path);
         }
 
 		return $values;
 	}
 
-	private function attributesToArray($node): array {
+    public function findPath(string $id, string $locale = null, array $params = []): string {
+	    $path = '';
+	    $query = "//route[@id='" . $id . "']/path";
+	    if(isset($locale)) {
+	        $query .= "[@locale='" . $locale . "']";
+        }
+
+        $nodes = $this->xpath->query($query);
+
+	    if($nodes->length) {
+            $path = $nodes[0]->nodeValue;
+
+            if(!empty($params)) {
+                $path .= '?' . http_build_query($params);
+            }
+        } else {
+            throw new RouteNotFoundException($id);
+        }
+
+        return $path;
+    }
+
+	private function attributesToArray(DOMElement $node): array {
         $values = [];
-        foreach ($node->attributes as $a) {
+        foreach($node->attributes as $a) {
             $values[$a->nodeName] = $a->nodeValue;
         }
 
         return $values;
     }
-
-    public function findPath(string $id, string $locale) {
-        $nodes = $this->xpath->query("//route[@id='" . $id . "']/path[@locale='" . $locale . "']");
-        return $nodes[0]->nodeValue;
-    }
-
-// URL
-
-	public function uri(string $id, $locale = null): string {
-        $route = $this->getRoute($id);
-
-		$uris = $route->getUris();
-        $uri = isset($locale) ? $uris[$locale] : $uris[0];
-
-		if(!empty($params)) {
-			$uri .= '?' . http_build_query($params);
-		}
-		
-		return $uri;
-	}
 }

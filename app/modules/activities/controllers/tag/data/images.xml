@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<images>
+	<group id="gallery" path="/assets/images/tag">
+		<image id="airsoft1">
+			<file type="main">.jpg</file>
+			<file type="thumbnail">_thumb.jpg</file>
+			<alt locale="en"></alt>
+			<alt locale="fr"></alt>
+		</image>
+	</group>
+
+	<group id="banners" path="/assets/images/banners">
+		<image id="tag">
+			<file type="main">.jpg</file>
+			<alt locale="en"></alt>
+			<alt locale="fr"></alt>
+		</image>
+	</group>
+</images>

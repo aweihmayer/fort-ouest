@@ -7,10 +7,11 @@ use helper\loader\ImageLoader;
 class ContactLoader {
     public static function load(string $f, string $locale): stdClass {
         $contacts = new stdClass();
-        $dom = simplexml_load_file($f);
 
-        foreach ($dom->contact as $i => $c) {
-            $contacts->{$c->attributes()->id} = self::makeContact($c, $locale);
+        $dom = simplexml_load_file($f);
+        foreach ($dom->contact as $c) {
+            $id = $c->attributes()->id;
+            $contacts->$id = self::makeContact($c, $locale);
         }
 
         return $contacts;
@@ -34,14 +35,16 @@ class ContactLoader {
         $c->socialMedia = new stdClass();
         if ($contact->socialMedia) {
             foreach ($contact->socialMedia->media as $sm) {
-                $c->socialMedia->{(String) $sm->attributes()->source} = (String) $sm;
+                $smSource = (String) $sm->attributes()->source;
+                $c->socialMedia->$smSource = (String) $sm;
             }
         }
 
         $c->hours = new stdClass();
         if ($contact->hours) {
             foreach ($contact->hours->period as $p) {
-                $c->hours->{(String) $p->attributes()->label} = (String) $p;
+                $hoursLabel = (String) $p->attributes()->label;
+                $c->hours->$hoursLabel = (String) $p;
             }
         }
 

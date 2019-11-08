@@ -58,9 +58,23 @@
 		<email>sportescapade@gmail.com</email>
 		<phone>(438) 880-6906</phone>
 		<logo>
-			<file type="main">/assets/images/logos/motorSports.jpg</file>
+			<file type="main">/assets/images/logos/motor-sports.png</file>
 			<alt locale="en">Sport Escapade logo</alt>
 			<alt locale="fr">Sport Escapade logo</alt>
+		</logo>
+	</contact>
+	<contact>
+		<phone>(819) 278-1478</phone>
+		<website>http://laserRAS.com/</website>
+		<email>info@laserRAS.com</email>
+		<socialMedia>
+			<media source="facebook">https://www.facebook.com/laserR.A.S/</media>
+			<media source="instagram">https://www.instagram.com/laser_r.a.s/</media>
+		</socialMedia>
+		<logo>
+			<file type="main">/assets/images/logos/laser.jpg</file>
+			<alt locale="en">Laser tag logo</alt>
+			<alt locale="fr">Laser tag logo</alt>
 		</logo>
 	</contact>
 </contacts>

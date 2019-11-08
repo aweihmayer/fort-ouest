@@ -2,21 +2,21 @@
 namespace PeazyPhp;
 
 class Request {
-	public function __construct(array $params) {
+	public function __construct(array $params = []) {
         foreach ($params as $k => $v) {
             $this->$k = $v;
         }
     }
 
-	public function getQuery() {
+	public function getQuery(): array {
 	    return $_GET;
     }
 
-	public function getMethod() {
+	public function getMethod(): string {
 	    return $_SERVER['REQUEST_METHOD'];
     }
 
-	public function getUri() {
+	public function getUri(): string {
 	    return $_SERVER['REQUEST_URI'];
     }
 }
