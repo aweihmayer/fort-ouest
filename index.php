@@ -32,7 +32,7 @@ class RequestHandler {
         $router = new Router(APP_PATH . 'config/routes.xml');
 
         try {
-            $route = $router->findRoute($_SERVER['REQUEST_URI']);
+            $route = $router->findRoute($_SERVER['REQUEST_URI'])[0];
         } catch(Exception $ex) {
             $firstPath = explode('/', $_SERVER['REQUEST_URI'])[0];
             $route = [
@@ -96,8 +96,7 @@ class RequestHandler {
                 'contact' => ContactLoader::load(APP_PATH . 'data/contacts.xml', $request->locale)->fortOuest,
                 'images' => ImageLoader::load(APP_PATH . 'data/images.xml', $request->locale),
                 'nav' => NavLoader::load(APP_PATH . 'data/nav.xml', $request)
-            ]
-        );
+            ]);
 
         Content::setBasePath(APP_PATH . 'html/');
 

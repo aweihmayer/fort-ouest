@@ -1,19 +1,145 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <images>
 	<group id="gallery" path="/assets/images/laser">
-		<image id="paintball1">
-			<file type="main">paintball1.jpg</file>
-			<file type="thumbnail">paintball1_thumb.jpg</file>
-			<alt locale="en">Defending the bus</alt>
-			<alt locale="fr">Défendre le bus</alt>
+		<image id="laser1">
+			<file type="main">laser1.jpg</file>
+			<file type="thumbnail">laser1_thumb.jpg</file>
+			<alt locale="en">Laser tag image</alt>
+			<alt locale="fr">Image laser tag</alt>
+		</image>
+		<image id="laser2">
+			<file type="main">laser2.jpg</file>
+			<file type="thumbnail">laser2_thumb.jpg</file>
+			<alt locale="en">Laser tag image</alt>
+			<alt locale="fr">Image laser tag</alt>
+		</image>
+		<image id="laser3">
+			<file type="main">laser3.jpg</file>
+			<file type="thumbnail">laser3_thumb.jpg</file>
+			<alt locale="en">Laser tag image</alt>
+			<alt locale="fr">Image laser tag</alt>
+		</image>
+		<image id="laser4">
+			<file type="main">laser4.jpg</file>
+			<file type="thumbnail">laser4_thumb.jpg</file>
+			<alt locale="en">Laser tag image</alt>
+			<alt locale="fr">Image laser tag</alt>
+		</image>
+		<image id="laser5">
+			<file type="main">laser5.jpg</file>
+			<file type="thumbnail">laser5_thumb.jpg</file>
+			<alt locale="en">Laser tag image</alt>
+			<alt locale="fr">Image laser tag</alt>
+		</image>
+		<image id="laser6">
+			<file type="main">laser6.jpg</file>
+			<file type="thumbnail">laser6_thumb.jpg</file>
+			<alt locale="en">Laser tag image</alt>
+			<alt locale="fr">Image laser tag</alt>
+		</image>
+		<image id="laser7">
+			<file type="main">laser7.jpg</file>
+			<file type="thumbnail">laser7_thumb.jpg</file>
+			<alt locale="en">Laser tag image</alt>
+			<alt locale="fr">Image laser tag</alt>
+		</image>
+		<image id="laser8">
+			<file type="main">laser8.jpg</file>
+			<file type="thumbnail">laser8_thumb.jpg</file>
+			<alt locale="en">Laser tag image</alt>
+			<alt locale="fr">Image laser tag</alt>
+		</image>
+		<image id="laser9">
+			<file type="main">laser9.jpg</file>
+			<file type="thumbnail">laser9_thumb.jpg</file>
+			<alt locale="en">Laser tag image</alt>
+			<alt locale="fr">Image laser tag</alt>
+		</image>
+		<image id="laser10">
+			<file type="main">laser10.jpg</file>
+			<file type="thumbnail">laser10_thumb.jpg</file>
+			<alt locale="en">Laser tag image</alt>
+			<alt locale="fr">Image laser tag</alt>
+		</image>
+		<image id="laser11">
+			<file type="main">laser11.jpg</file>
+			<file type="thumbnail">laser11_thumb.jpg</file>
+			<alt locale="en">Laser tag image</alt>
+			<alt locale="fr">Image laser tag</alt>
+		</image>
+		<image id="laser12">
+			<file type="main">laser12.jpg</file>
+			<file type="thumbnail">laser12_thumb.jpg</file>
+			<alt locale="en">Laser tag image</alt>
+			<alt locale="fr">Image laser tag</alt>
+		</image>
+		<image id="laser13">
+			<file type="main">laser13.jpg</file>
+			<file type="thumbnail">laser13_thumb.jpg</file>
+			<alt locale="en">Laser tag image</alt>
+			<alt locale="fr">Image laser tag</alt>
+		</image>
+		<image id="laser14">
+			<file type="main">laser14.jpg</file>
+			<file type="thumbnail">laser14_thumb.jpg</file>
+			<alt locale="en">Laser tag image</alt>
+			<alt locale="fr">Image laser tag</alt>
+		</image>
+		<image id="laser15">
+			<file type="main">laser15.jpg</file>
+			<file type="thumbnail">laser15_thumb.jpg</file>
+			<alt locale="en">Laser tag image</alt>
+			<alt locale="fr">Image laser tag</alt>
+		</image>
+		<image id="laser16">
+			<file type="main">laser16.jpg</file>
+			<file type="thumbnail">laser16_thumb.jpg</file>
+			<alt locale="en">Laser tag image</alt>
+			<alt locale="fr">Image laser tag</alt>
+		</image>
+		<image id="laser17">
+			<file type="main">laser17.jpg</file>
+			<file type="thumbnail">laser17_thumb.jpg</file>
+			<alt locale="en">Laser tag image</alt>
+			<alt locale="fr">Image laser tag</alt>
+		</image>
+		<image id="laser18">
+			<file type="main">laser18.jpg</file>
+			<file type="thumbnail">laser18_thumb.jpg</file>
+			<alt locale="en">Laser tag image</alt>
+			<alt locale="fr">Image laser tag</alt>
+		</image>
+		<image id="laser19">
+			<file type="main">laser19.jpg</file>
+			<file type="thumbnail">laser19_thumb.jpg</file>
+			<alt locale="en">Laser tag image</alt>
+			<alt locale="fr">Image laser tag</alt>
+		</image>
+		<image id="laser20">
+			<file type="main">laser20.jpg</file>
+			<file type="thumbnail">laser20_thumb.jpg</file>
+			<alt locale="en">Laser tag image</alt>
+			<alt locale="fr">Image laser tag</alt>
+		</image>
+		<image id="laser21">
+			<file type="main">laser21.jpg</file>
+			<file type="thumbnail">laser21_thumb.jpg</file>
+			<alt locale="en">Laser tag image</alt>
+			<alt locale="fr">Image laser tag</alt>
+		</image>
+		<image id="laser22">
+			<file type="main">laser22.jpg</file>
+			<file type="thumbnail">laser22_thumb.jpg</file>
+			<alt locale="en">Laser tag image</alt>
+			<alt locale="fr">Image laser tag</alt>
 		</image>
 	</group>
 
 	<group id="banners" path="/assets/images/banners">
-		<image id="paintball">
-			<file type="main">paintball.jpg</file>
-			<alt locale="en">Paintball in Mont-Tremblant, Quebec</alt>
-			<alt locale="fr">Paintball à Mont-Tremblant, Québec</alt>
+		<image id="laser">
+			<file type="main">laser.jpg</file>
+			<alt locale="en">Laser tag in Mont-Tremblant, Quebec</alt>
+			<alt locale="fr">Laser tag à Mont-Tremblant, Québec</alt>
 		</image>
 	</group>
 </images>

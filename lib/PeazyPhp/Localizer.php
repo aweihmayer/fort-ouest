@@ -29,7 +29,7 @@ class Localizer{
         self::$safeHtmlChars = array_values($htmlChars);
 	}
 	
-	protected static function toHtmlSafe($value): string {
+	protected static function toHtmlSafe($value) {
 		if(is_array($value)) {
 			foreach($value as $i => $v) {
 				$value[$i] = self::toHtmlSafe($v);

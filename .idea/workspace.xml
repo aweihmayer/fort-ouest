@@ -12,45 +12,134 @@
     <session id="525104799">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.closed" value="16" />
+          <entry key="project.open.time.0" value="10" />
+          <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.4" value="2" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="jpg" value="1" />
-          <entry key="php" value="18" />
+          <entry key="gitignore" value="1" />
+          <entry key="jpg" value="7" />
+          <entry key="json" value="10" />
+          <entry key="md" value="1" />
+          <entry key="php" value="39" />
+          <entry key="phtml" value="18" />
+          <entry key="xml" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Image" value="1" />
-          <entry key="PHP" value="18" />
+          <entry key="Image" value="7" />
+          <entry key="JSON" value="10" />
+          <entry key="Markdown" value="1" />
+          <entry key="PHP" value="57" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="XML" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="php" value="362" />
+          <entry key="md" value="156" />
+          <entry key="php" value="1848" />
+          <entry key="xml" value="174" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PHP" value="362" />
+          <entry key="Markdown" value="156" />
+          <entry key="PHP" value="1848" />
+          <entry key="XML" value="174" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/modules/index/controllers/index/views/index.phtml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/modules/index/controllers/index/views/partners.phtml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/modules/index/controllers/index/views/contact.phtml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/modules/activities/controllers/laser/views/photos.phtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/modules/activities/controllers/tag/views/index.phtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="6" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/modules/activities/controllers/laser/views/index.phtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="10" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/modules/activities/controllers/laser/views/booking.phtml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>$router</find>
+      <find>xxx</find>
+      <find>nnn</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>laser</replace>
+      <replace>1</replace>
+      <replace>2</replace>
+      <replace>3</replace>
+      <replace>4</replace>
+      <replace>5</replace>
+      <replace>6</replace>
+      <replace>7</replace>
+      <replace>8</replace>
+      <replace>9</replace>
+      <replace>10</replace>
+      <replace>11</replace>
+      <replace>12</replace>
+      <replace>13</replace>
+      <replace>14</replace>
+      <replace>15</replace>
+      <replace>16</replace>
+      <replace>17</replace>
+      <replace>18</replace>
+      <replace>19</replace>
+      <replace>20</replace>
+      <replace>21</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -58,12 +147,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/lib/PeazyPhp/Response.php" />
         <option value="$PROJECT_DIR$/lib/PeazyPhp/exceptions/NotFoundException.php" />
         <option value="$PROJECT_DIR$/lib/PeazyPhp/exceptions/FileNotFoundException.php" />
         <option value="$PROJECT_DIR$/lib/PeazyPhp/exceptions/RouteNotFoundException.php" />
+        <option value="$PROJECT_DIR$/lib/PeazyPhp/README.md" />
+        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/lib/PeazyPhp/Router.php" />
+        <option value="$PROJECT_DIR$/lib/PeazyPhp/Localizer.php" />
+        <option value="$PROJECT_DIR$/app/modules/activities/controllers/laser/data/images.xml" />
+        <option value="$PROJECT_DIR$/app/config/routes.xml" />
       </list>
     </option>
   </component>
@@ -98,6 +191,80 @@
             <path>
               <item name="fort-ouest" type="b2602c69:ProjectViewProjectNode" />
               <item name="fort-ouest" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fort-ouest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fort-ouest" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fort-ouest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fort-ouest" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="activities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fort-ouest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fort-ouest" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="activities" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fort-ouest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fort-ouest" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="activities" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="laser" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fort-ouest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fort-ouest" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="activities" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="laser" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fort-ouest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fort-ouest" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="activities" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="tag" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fort-ouest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fort-ouest" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="activities" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="tag" type="462c0819:PsiDirectoryNode" />
+              <item name="locale" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fort-ouest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fort-ouest" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="activities" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="tag" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fort-ouest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fort-ouest" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -105,37 +272,6 @@
               <item name="fort-ouest" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fort-ouest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fort-ouest" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fort-ouest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fort-ouest" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="helper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fort-ouest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fort-ouest" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="helper" type="462c0819:PsiDirectoryNode" />
-              <item name="loader" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fort-ouest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fort-ouest" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="PeazyPhp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fort-ouest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fort-ouest" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="PeazyPhp" type="462c0819:PsiDirectoryNode" />
-              <item name="exceptions" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="fort-ouest" type="b2602c69:ProjectViewProjectNode" />
@@ -155,6 +291,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\ledevoir_vagrant\www\fort-ouest\assets\images\laser" />
       <recent name="E:\ledevoir_vagrant\www\fort-ouest\lib\PeazyPhp\exceptions" />
     </key>
   </component>
@@ -186,16 +323,28 @@
       <workItem from="1572986860184" duration="14000" />
       <workItem from="1572989139747" duration="706000" />
       <workItem from="1573067542550" duration="727000" />
+      <workItem from="1573249827707" duration="1222000" />
+      <workItem from="1573831412304" duration="5486000" />
+      <workItem from="1573845523697" duration="5345000" />
+      <workItem from="1574178197180" duration="2188000" />
+      <workItem from="1574276854792" duration="536000" />
+      <workItem from="1574281522256" duration="719000" />
+      <workItem from="1574436849745" duration="2479000" />
+      <workItem from="1574692851890" duration="3732000" />
+      <workItem from="1575038916521" duration="691000" />
+      <workItem from="1575385419201" duration="593000" />
+      <workItem from="1576513900362" duration="2788000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6465000" />
+    <option name="totallyTimeSpent" value="32244000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="79" width="1456" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26719198" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2249467" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -223,38 +372,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/PeazyPhp/Localizer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="18" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="98" column="13" lean-forward="true" selection-start-line="98" selection-start-column="13" selection-end-line="98" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/PeazyPhp/exceptions/PathNotFoundException.php" />
-    <entry file="file://$PROJECT_DIR$/lib/PeazyPhp/Router.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/PeazyPhp/Request.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/PeazyPhp/Response.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/PeazyPhp/exceptions/RouteNotFoundException.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -276,8 +394,173 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/PeazyPhp/README.md" />
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/compile.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/env.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/PeazyPhp/Response.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="36" lean-forward="true" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/PeazyPhp/Request.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/PeazyPhp/Content.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="28" column="32" lean-forward="true" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/PeazyPhp/Router.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1598">
+          <caret line="94" column="65" lean-forward="true" selection-start-line="94" selection-start-column="65" selection-end-line="94" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/modules/activities/controllers/laser/locale/en-booking.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/modules/activities/controllers/laser/locale/fr-booking.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/modules/activities/controllers/laser/locale/en-index.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/modules/activities/controllers/laser/locale/fr-index.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/modules/activities/controllers/paintball/controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/laser/laser6.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/images/laser/laser1.jpg">
       <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/laser/laser3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/modules/activities/controllers/airsoft/data/images.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/laser/laser4-min.jpg" />
+    <entry file="file://$PROJECT_DIR$/app/modules/index/controllers/error/views/404.phtml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/modules/index/controllers/error/views/410.phtml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/modules/index/controllers/error/locale/en-410.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/modules/index/controllers/error/locale/fr-404.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/modules/index/controllers/error/locale/fr-410.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/modules/index/controllers/error/locale/en-404.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/modules/activities/controllers/laser/controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/modules/activities/controllers/paintball/views/photos.phtml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/PeazyPhp/Localizer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="35" column="13" lean-forward="true" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/dog-sledding/cubs1_thumb.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/modules/activities/controllers/laser/data/images.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="125" column="59" lean-forward="true" selection-start-line="125" selection-start-column="59" selection-end-line="125" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/routes.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1093">
+          <caret line="269" column="14" selection-start-line="269" selection-start-column="14" selection-end-line="269" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/modules/index/controllers/index/views/index.phtml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/modules/index/controllers/index/views/partners.phtml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/modules/index/controllers/index/views/contact.phtml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/modules/activities/controllers/laser/views/booking.phtml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/modules/activities/controllers/laser/views/photos.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/modules/activities/controllers/tag/locale/fr-index.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/modules/activities/controllers/tag/locale/en-index.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/modules/activities/controllers/laser/views/index.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="10" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/modules/activities/controllers/tag/views/index.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="6" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

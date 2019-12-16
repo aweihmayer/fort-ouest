@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <routes>
+	<!-- GENERAL INFORMATION -->
+
 	<group module="index" controller="index">
 		<route id="home" action="index">
 			<path locale="en">/en</path>
@@ -235,8 +237,8 @@
 
 	<!-- REMOVED -->
 
-	<route module="index" controller="error" action="error410" code="410">
-		<group locale="fr">
+	<group module="index" controller="error" action="error410" code="410">
+		<route locale="fr">
 			<path>/forum</path>
 			<path>/forum/</path>
 			<path>/asl/conception.html</path>
@@ -264,13 +266,13 @@
 			<path>/pdf/decharge.pdf</path>
 			<path>/pdf/weaver.pdf</path>
 			<path>/pdf/weaver.pdf</path>
-		</group>
-		<group locale="en">
+		</route>
+		<route locale="en">
 			<path>/pdf/reservation-en.pdf</path>
 			<path>/a-tremblant-vip-passes/index.html</path>
 			<path>/forum/viewtopic.php</path>
 			<path>/yuma/index-en.html</path>
 			<path>/sitemap.html</path>
-		</group>
-	</route>
+		</route>
+	</group>
 </routes>

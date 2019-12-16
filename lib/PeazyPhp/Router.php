@@ -23,24 +23,51 @@ class Router {
 	}
 
 	public function findRoute(string $path): array {
-		$values = [];
-
         $path = strtok($path,'?');
+	    $routes = [];
+
+        // Search for exact matching path without path parameters
         $nodes = $this->xpath->query("//path[text()='" . $path . "']");
-
         if($nodes->length) {
-            $n = $nodes[0];
-            $values = $this->attributesToArray($n);
-
-            while($n->parentNode) {
-                $values = array_merge($values, $this->attributesToArray($n));
-                $n = $n->parentNode;
-            }
+            $routes[] = $this->extractRouteParams($nodes[0]);
         } else {
+            $nodes = $this->xpath->query("//path");
+
+            foreach($nodes as $nd) {
+                // Check paths that have a parameter (name prefixed with :)
+                if(strpos($nd->nodeValue, ':') !== false) {
+                    $path = explode('/', $path);
+                    $path2 = explode('/', $nd->nodeValue);
+
+                    // Number of path elements must be the same
+                    if(count($path) == count($path2)) {
+                        $params = [];
+
+                        foreach($path as $i => $v) {
+                            $v2 = $path2[$i];
+
+                            // If this path element is a parameter, store it. Else if the path elements are not the same, skip this path
+                            if(strpos($v2, ':') !== false) {
+                                $name = ltrim($v2, ':');
+                                $params[$name] = $v;
+                            } else {
+                                break 2;
+                            }
+                        }
+
+                        $routes[] = array_merge(
+                            $params,
+                            $this->extractRouteParams($nd));
+                    }
+                }
+            }
+        }
+
+        if(empty($routes)) {
             throw new RouteNotFoundException($path);
         }
 
-		return $values;
+		return $routes;
 	}
 
     public function findPath(string $id, string $locale = null, array $params = []): string {
@@ -67,10 +94,22 @@ class Router {
 
 	private function attributesToArray(DOMElement $node): array {
         $values = [];
+
         foreach($node->attributes as $a) {
             $values[$a->nodeName] = $a->nodeValue;
         }
 
         return $values;
+    }
+
+    private function extractRouteParams(DOMElement $node): array {
+        $params = $this->attributesToArray($node);
+
+        while($node->parentNode) {
+            $params = array_merge($params, $this->attributesToArray($node));
+            $node = $node->parentNode;
+        }
+
+        return $params;
     }
 }
