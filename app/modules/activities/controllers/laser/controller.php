@@ -11,6 +11,6 @@ class laserController {
     }
 	
 	public function bookingAction() {
-
+        $this->view->contact = ContactLoader::load(APP_PATH . 'data/contacts.xml', $this->request->locale)->laser;
 	}
 }

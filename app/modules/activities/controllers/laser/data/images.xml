@@ -43,12 +43,6 @@
 			<alt locale="en">Laser tag image</alt>
 			<alt locale="fr">Image laser tag</alt>
 		</image>
-		<image id="laser8">
-			<file type="main">laser8.jpg</file>
-			<file type="thumbnail">laser8_thumb.jpg</file>
-			<alt locale="en">Laser tag image</alt>
-			<alt locale="fr">Image laser tag</alt>
-		</image>
 		<image id="laser9">
 			<file type="main">laser9.jpg</file>
 			<file type="thumbnail">laser9_thumb.jpg</file>
@@ -58,12 +52,6 @@
 		<image id="laser10">
 			<file type="main">laser10.jpg</file>
 			<file type="thumbnail">laser10_thumb.jpg</file>
-			<alt locale="en">Laser tag image</alt>
-			<alt locale="fr">Image laser tag</alt>
-		</image>
-		<image id="laser11">
-			<file type="main">laser11.jpg</file>
-			<file type="thumbnail">laser11_thumb.jpg</file>
 			<alt locale="en">Laser tag image</alt>
 			<alt locale="fr">Image laser tag</alt>
 		</image>
@@ -137,7 +125,7 @@
 
 	<group id="banners" path="/assets/images/banners">
 		<image id="laser">
-			<file type="main">laser.jpg</file>
+			<file type="main">laser1.jpg</file>
 			<alt locale="en">Laser tag in Mont-Tremblant, Quebec</alt>
 			<alt locale="fr">Laser tag à Mont-Tremblant, Québec</alt>
 		</image>

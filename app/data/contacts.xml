@@ -63,7 +63,7 @@
 			<alt locale="fr">Sport Escapade logo</alt>
 		</logo>
 	</contact>
-	<contact>
+	<contact id="laser">
 		<phone>(819) 278-1478</phone>
 		<website>http://laserRAS.com/</website>
 		<email>info@laserRAS.com</email>

@@ -1,5 +1,7 @@
 <section>
 	<h1><?= t('bookYourMission'); ?></h1>
 
+    <?= $this->includeContent('content/contact.phtml', ['contact' => $this->contact]); ?>
+
     <?= $this->includeContent('helper/p.phtml', ['texts' => t('laserBookingText')]); ?>
 </section>

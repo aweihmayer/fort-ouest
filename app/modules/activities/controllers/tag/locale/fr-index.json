@@ -1,9 +1,10 @@
 {
-	"survivalInTremblant": "Activités de survie en forêt à Mont-Tremblant, Québec",
-	"missionDesc": "La mission principale d'Option Nature est de développer et d'opérer des activités plein air adaptés pour une clientèle de tous âges. Nous souhaitons ainsi donner l'opportunité à nos participants de vivre de belles expériences en vie sauvage Québécoise.",
-	"openingDatesTxt": "Nous sommes ouvert de septembre à avril.",
-	
-	"guide": "Votre guide",
-	"richardBilodeau1": "Depuis plus de 10 ans, Richard Bilodeau a parcouru le Canada d'un océan à l'autre dans le cadre de différents projets de plein-air auprès d'une clientèle diversifiée. Il est revenu dans la région des Laurentides en 2010 afin de travailler au sein de la SOP FEU à titre de pompier forestier. Ces différents projets lui ont permis d'acquérir beaucoup d'expérience comme animateur et comme guide de plein air.",
-	"richardBilodeau2": "Son aventure a commencé au cours de l'hiver 2003, lorsqu'il travaillait dans différentes bases de plein air des Laurentides. Son parcours le mena jusqu'en Colombie-Britannique, ou il partagea sa passion du plein air dans un camp réputé auprès d'une clientèle en immersion française. Par la suite en 2006, il a complété un DEP en Protection et Exploitation des Territoires Fauniques tout en travaillant auprès d'adolescents à titre d'intervenant dans les maisons des jeunes des Laurentides jusqu'en 2007. En 2008, Richard a participé au programme Katimavik comme agent de projet. Depuis 2010, il oeuvre comme pompier forestier l'été et comme guide de plein air."
+	"tagInfo1": "Spécialiste de paintball et d'airsoft depuis 2005 et ayant plus de 27 ans d'expérience dans ces domaines, nous avons réinventé des jeux autrefois joués par des enfants et maintenant  ré-adapté pour une clientèle de tout âge, autant les enfants, que les adolescents et même aux adultes. Nous avons mélangé les jeux classiques de ballon chasseur, de tague, de course, de flag football et avec un système de pointage. Le jeu a été conçu et créé par Daniel Fournier propriétaire de Fort Ouest et son équipe.",
+	"tagInfo2": "Les jeux sont joués sur les mêmes terrains où nous jouons au paintball, au airsoft et même au laser tag. Mais ne vous inquiétez pas, on ne mélange pas toutes ces activités en même temps!",
+	"tagInfo3": [
+		"Alors imaginez-vous vous cachant derrière de barricades prêt à déjouer un adversaire?",
+		"Vous faufilant à la lueur de la lune dans les bois pour aller porter un drapeau dans le camps adverse?",
+		"Planifier vos stratégies pour défendre votre camps, mais aussi vos offensives pour aller compter des points dans le camps adverse?",
+		""
+	]
 }
