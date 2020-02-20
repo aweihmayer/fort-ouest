@@ -1,0 +1,10 @@
+<section>
+    <h1><?= t('rules'); ?></h1>
+    <?= $this->includeContent('content/banner.phtml', ['image' => $this->images->tag2]); ?>
+
+    <h2><?= t('generalRules'); ?></h2>
+    <?= $this->includeContent('helper/ul.phtml', ['items' => t('tagGeneralRules')]); ?>
+
+    <h2><?= t('gameRules'); ?></h2>
+    <?= $this->includeContent('helper/ul.phtml', ['items' => t('tagGameRules')]); ?>
+</section>

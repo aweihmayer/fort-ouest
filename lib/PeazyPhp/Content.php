@@ -1,7 +1,7 @@
 <?php
 namespace PeazyPhp;
 
-class Content{
+class Content {
     private static $basePath = '';
 	protected $file;
 

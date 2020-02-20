@@ -55,8 +55,7 @@ class Localizer{
 			if(file_exists($file)) {
 				$this->values[$locale] = array_merge(
 					$this->values[$locale],
-					json_decode(file_get_contents($file), true)
-				);
+					json_decode(file_get_contents($file), true));
 			}
 		}
 	}

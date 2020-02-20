@@ -16,6 +16,12 @@
 			<link route="airsoftPhotos" label="photos"/>
 			<link route="airsoftBooking" label="book"/>
 		</link>
+		<link route="tagInfo" controller="tag" label="tag">
+			<link route="tagInfo" label="info"/>
+			<link route="tagPrices" label="prices"/>
+			<link route="tagPhotos" label="photos"/>
+			<link route="tagBooking" label="book"/>
+		</link>
 		<link route="dogSleddingInfo" controller="dog-sledding" label="dogSledding">
 			<link route="dogSleddingInfo" label="info"/>
 			<link route="dogSleddingPackages" label="packages"/>

@@ -1,70 +1,14 @@
 {
-	"entryHalfSummer":{
-		"price":24,
+	"entry":{
+		"price": 24.95,
 		"type":"entry"
 	},
-	"entryHalfWinter":{
-		"price":34,
+	"entryNight":{
+		"price": 29.95,
 		"type":"entry"
 	},
-	"entryFullSummer":{
-		"price":36.95,
+	"extraHour": {
+		"price": 8.95,
 		"type":"entry"
-	},
-	"entryFullWinter":{
-		"price":46.95,
-		"type":"entry"
-	},
-	"entryMember":{
-		"price":20,
-		"type":"entry"
-	},
-	"mask":{
-		"price":5,
-		"type":"equipment"
-	},
-	"maskThermal":{
-		"price":15,
-		"type":"equipment"
-	},
-	"suit":{
-		"price":5,
-		"type":"equipment"
-	},
-	"gloves":{
-		"price":5,
-		"type":"equipment"
-	},
-	"shemagh":{
-		"price":5,
-		"type":"equipment"
-	},
-	"grenadeSmoke":{
-		"price":13,
-		"type":"equipment"
-	},
-	"smallSmokeGrenade":{
-		"price":9,
-		"type":"equipment"
-	},
-	"bodyArmor":{
-		"price":5,
-		"type":"equipment"
-	},
-	"bodyArmorWomen":{
-		"price":"free",
-		"type":"equipment"
-	},
-	"membershipDjs":{
-		"price":99,
-		"type":"memberships"
-	},
-	"membershipYear":{
-		"price":199,
-		"type":"memberships"
-	},
-	"membershipLife":{
-		"price":399,
-		"type":"memberships"
 	}
 }

@@ -1,0 +1,29 @@
+{
+  "generalRules": "Règlements généraux",
+  "tagGeneralRules": [
+    "Éviter de tirer les ballons à la tête, malgré que les ballons sont adaptés aux jeunes enfants.",
+    "Drogues, alcool et violence interdites.",
+    "Interdiction de \"tackle\" des joueurs adverse comme au football américain.",
+    "Respect des joueurs, des terrains de jeux et des animateurs.",
+    "Les joueurs doivent regarder dans la direction où ils courent en tout temps.",
+    "Si aucunes marches ou échelles n'est disponibles, il est interdit de griper sur les structures."
+  ],
+  "gameRules": "Règlements du jeu",
+  "tagGameRules": [
+    "Les joueurs portent un brassard au bras pour différencier les équipes.",
+    "Les joueurs débutent les jeux avec une ceinture et 2 drapeaux dans le dos qui appartiennent à l'équipe adverse ils possèdent également une petite balle pour compter des buts.",
+    "Les drapeaux valent chacun 1 point.",
+    "Les petites balles valent 3 points chacun.",
+    "La ballons chasseur servent uniquement à taguer des adversaires et n'ont pas de valeur de point.",
+    "Chaque équipe n'a le droit seulement que de ramasser des ballons chasseur de sa propre équipe et n'a pas le droit de ramasser un ballon adverse.",
+    "Un adversaire a le droit de botter à l'intérieur du terrain de jeux un ballon adverse.",
+    "Après chaque match, les ballons chasseurs restent sur les terrain.",
+    "Lorsqu'un joueur vole un drapeau adverse, il doit le coller sur le devant de sa ceinture.",
+    "Si un drapeau a été \"volé\", il ne peut être revolé à nouveau.",
+    "Si jamais un joueur n'a pas de drapeau dans le dos, il est éliminé et ses drapeaux \"volés\" seront alors comptabilisé à la fin du match.",
+    "Lorsqu'un joueur se fait taguer par un ballon, il doit s'immobiliser jusqu'à temps qu'on lui vole un de ses drapeau ou qu'un coéquipier le touche pendant 3 secondes.",
+    "Pendant qu'un joueur est immobilisé, il a droit d'avoir un ballon chasseur dans les mains et de s'en servir.",
+    "Les ballons chasseur et les petites balles peuvent être passé entre les coéquipiers.",
+    "Un joueur ne peut avoir plus d'un ballon chasseur ou plus d'une petite balle dans les mains à la fois."
+  ]
+}

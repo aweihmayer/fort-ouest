@@ -1,0 +1,29 @@
+{
+  "generalRules": "General rules",
+  "tagGeneralRules": [
+    "Try not to throw balls at heads, even tho they are made to play with young kids.",
+    "Drugs, alcohol & violence are forbidden",
+    "It's forbidden to tackle opponents like in American football.",
+    "Respect of players, the fields and the game masters.",
+    "Players must always look in the direction they are running.",
+    "If no stairs or ladders are available, it is forbidden to scale structures."
+  ],
+  "gameRules": "Game rules",
+  "tagGameRules": [
+    "Players wear armbands to differentiate teams.",
+    "Players start with 2 opponent flags in their back & they also carry 1 small ball to score points.",
+    "Flags are worth 1 point.",
+    "Small balls are worth 3 points.",
+    "Dodgballs have no point value and are only used to tag opponents",
+    "Each team can pickup only their own balls and can not pickup opponent dodgeballs.",
+    "Opposing teams may kick slightly opponent dodgeballs, balls must stay on the game field.",
+    "After each game dodgeball have to stay on the field.",
+    "When an opponent steals an opponent's flag, he must stick it to the front of his belt.",
+    "A stolen flag can not be stolen back.",
+    "If a player does not have a flag on his back, he's eliminated and the flags he presently has will be counted at the end of the game.",
+    "If a player is tagged by a dodgeball, he must stop on the spot until one of his flags is stolen or if a team mate touches him during 3 seconds.",
+    "If an immobilized player has a dodgeball in his hands, he may use it to defend himself.",
+    "Small balls and dodgeballs may be passed between players.",
+    "A player may not have more than 1 small ball and 1 dodgeball on himself at at time."
+  ]
+}

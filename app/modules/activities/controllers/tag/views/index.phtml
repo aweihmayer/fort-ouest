@@ -2,14 +2,11 @@
 	<h1><?= t('tagInTremblant'); ?></h1>
 	<?= $this->includeContent('content/banner.phtml', ['image' => $this->images->tag]); ?>
 	
-    <p>Spécialiste de paintball et d'airsoft depuis 2005 et ayant plus de 27 ans d'expérience dans ces domaines, nous avons réinventé des jeux autrefois joués par des enfants et maintenant  ré-adapté pour une clientèle de tout âge, autant les enfants, que les adolescents et même aux adultes. Nous avons mélangé les jeux classiques de ballon chasseur, de tague, de course, de flag football et avec un système de pointage. Le jeu a été conçu et créé par Daniel Fournier propriétaire de Fort Ouest et son équipe.</p>
+    <p><?= t('tagInfo1'); ?></p>
 
-    <p>Les jeux sont joués sur les mêmes terrains où nous jouons au paintball, au airsoft et même au laser tag. Mais ne vous inquiétez pas, on ne mélange pas toutes ces activités en même temps!</p>
+    <p><?= t('tagInfo2'); ?></p>
 
-    <ul></ul>
-    - Alors imaginez-vous vous cachant derrière de barricades prêt à déjouer un adversaire?
-    - Vous faufilant à la lueur de la lune dans les bois pour aller porter un drapeau dans le camps adverse?
-    - Planifier vos stratégies pour défendre votre camps, mais aussi vos offensives pour aller compter des points dans le camps adverse?
-    - Vous allez devoir planifier vos "jeux" entre chaque scénario, car le manche précédente change la dynamique de chaque manches suivantes!
-    Comment est-ce possible? Alors venez découvrir notre jeux et vous serez surpris du plaisir et de la stratégie au rendez-vous dans notre jeux, Pogne ou Tague!
+    <?= $this->includeContent('helper/ul.phtml', ['items' => t('tagInfo3')]); ?>
+
+    <p><?= t('tagInfo4'); ?></p>
 </section>

@@ -72,7 +72,7 @@
 			<media source="instagram">https://www.instagram.com/laser_r.a.s/</media>
 		</socialMedia>
 		<logo>
-			<file type="main">/assets/images/logos/laser.jpg</file>
+			<file type="main">/assets/images/logos/laser.png</file>
 			<alt locale="en">Laser tag logo</alt>
 			<alt locale="fr">Laser tag logo</alt>
 		</logo>

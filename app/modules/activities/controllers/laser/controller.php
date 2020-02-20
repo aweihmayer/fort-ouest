@@ -1,5 +1,7 @@
 <?php
 use helper\loader\ImageLoader;
+use helper\loader\ContactLoader;
+use helper\ProductList;
 
 class laserController {
 	public function indexAction() {

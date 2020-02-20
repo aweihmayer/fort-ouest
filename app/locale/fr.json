@@ -11,15 +11,18 @@
 	"atvShort": "VTT",
 	"laserTag": "Laser tag",
 	"laser": "Laser tag",
+	"tag": "Pogne ou tag",
 	
 	"index": "Accueil",
 	"home": "Accueil",
 	"info": "Info",
 	"prices": "Prix",
+	"discounts": "Rabais",
 	"packages": "Forfaits",
 	"photos": "Photos",
 	"members": "Membres",
 	"book": "Réserver",
+	"booking": "Réserver",
 	"restaurant": "Restaurant",
 	"contact": "Contact",
 	
@@ -53,5 +56,6 @@
 	"mondayThursday": "Lundi - jeudi",
 	"friday": "Vendredi",
 
-	"fortOuestMarketing": "À 20 minutes du Mont-Tremblant, Fort Ouest est ouvert à l'année longue et c'est le centre d'activités plein air le plus complet de la région. Découvrez le paintball, l'airsoft, le traineau à chiens, la motoneige, le VTT et la survie en forêt."
+	"fortOuestMarketing": "À 20 minutes du Mont-Tremblant, Fort Ouest est ouvert à l'année longue et c'est le centre d'activités plein air le plus complet de la région. Découvrez le paintball, l'airsoft, le traineau à chiens, la motoneige, le VTT et la survie en forêt.",
+	"people": "personnes"
 }

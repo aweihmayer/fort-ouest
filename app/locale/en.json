@@ -11,15 +11,18 @@
 	"atvShort": "ATV",
 	"laserTag": "Laser tag",
 	"laser": "Laser tag",
+	"tag": "Grab or tag",
 	
 	"index": "Home",
 	"home": "Home",
 	"info": "Info",
 	"prices": "Prices",
+	"discounts": "Discounts",
 	"packages": "Packages",
 	"photos": "Photos",
 	"members": "Members",
 	"book": "Book",
+	"booking": "Book",
 	"restaurant": "Restaurant",
 	"contact": "Contact",
 	
@@ -53,6 +56,6 @@
 	"mondayThursday": "Monday - Thursday",
 	"friday": "Friday",
 
-	"fortOuestMarketing": "20 minutes away from Mont-Tremblant, Fort Ouest is open all year round and is the most complete outdoors activity center around offering paintball, airsoft, dog sledding, snowmobiling, ATV and wilderness survival."
-
+	"fortOuestMarketing": "20 minutes away from Mont-Tremblant, Fort Ouest is open all year round and is the most complete outdoors activity center around offering paintball, airsoft, dog sledding, snowmobiling, ATV and wilderness survival.",
+	"people": "people"
 }

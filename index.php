@@ -85,7 +85,7 @@ class RequestHandler {
     }
 
     private static function createContent(Request $request, stdClass $model): Content {
-        $view = new Content(CONTROLLER_PATH . '/views/' . $request->action . '.phtml');
+        $view = new Content(CONTROLLER_PATH . 'views/' . $request->action . '.phtml');
         $view->applyModel($model);
 
         $layout = new Content(

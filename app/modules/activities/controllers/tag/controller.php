@@ -8,7 +8,7 @@ class tagController {
         $this->view->images = ImageLoader::load(CONTROLLER_PATH . 'data/images.xml', $this->request->locale)->banners;
     }
 	
-	public function packagesAction(){
+	public function pricesAction(){
         $this->view->images = ImageLoader::load(CONTROLLER_PATH . 'data/images.xml', $this->request->locale)->banners;
     }
 		

@@ -172,6 +172,27 @@
 			</route>
 		</group>
 
+		<!-- TAG -->
+
+		<group controller="tag">
+			<route id="tagInfo" action="index">
+				<path locale="en">/en/grab-or-tag</path>
+				<path locale="fr">/fr/pogne-ou-tag</path>
+			</route>
+			<route id="tagPrices" action="prices">
+				<path locale="en">/en/grab-or-tag/prices</path>
+				<path locale="fr">/fr/pogne-ou-tag/prix</path>
+			</route>
+			<route id="tagPhotos" action="photos">
+				<path locale="en">/en/grab-or-tag/photos</path>
+				<path locale="fr">/fr/pogne-ou-tag/photos</path>
+			</route>
+			<route id="tagBooking" action="booking">
+				<path locale="en">/en/grab-or-tag/book</path>
+				<path locale="fr">/fr/pogne-ou-tag/reserver</path>
+			</route>
+		</group>
+
 		<!-- MOTONEIGE -->
 
 		<group controller="snowmobile">
